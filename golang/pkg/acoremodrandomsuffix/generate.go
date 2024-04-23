@@ -135,8 +135,8 @@ func generateItemRandomSuffixCSV(schema dbc.DBCSchema, es []customRandomSuffixEn
 
 var customSpellItemEnchantDBCCSVEntries = [][]string{
 	{"ID", "Charges", "Effect_1", "Effect_2", "Effect_3", "EffectPointsMin_1", "EffectPointsMin_2", "EffectPointsMin_3", "EffectPointsMax_1", "EffectPointsMax_2", "EffectPointsMax_3", "EffectArg_1", "EffectArg_2", "EffectArg_3", "Name_Lang_enUS", "Name_Lang_enGB", "Name_Lang_koKR", "Name_Lang_frFR", "Name_Lang_deDE", "Name_Lang_enCN", "Name_Lang_zhCN", "Name_Lang_enTW", "Name_Lang_zhTW", "Name_Lang_esES", "Name_Lang_esMX", "Name_Lang_ruRU", "Name_Lang_ptPT", "Name_Lang_ptBR", "Name_Lang_itIT", "Name_Lang_Unk", "Name_Lang_Mask", "ItemVisual", "Flags", "Src_ItemID", "Condition_Id", "RequiredSkillID", "RequiredSkillRank", "MinLevel"},
-	{strconv.FormatInt(int64(AExpertise.EnchantID()), 10), "0", "5", "0", "0", "0", "0", "0", "0", "0", "0", "37", "0", "0", "+$i Expertise Rating", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "16712190", "0", "0", "0", "0", "0", "0", "0"},
-	{strconv.FormatInt(int64(AParry.EnchantID()), 10), "0", "5", "0", "0", "0", "0", "0", "0", "0", "0", "14", "0", "0", "+$i Parry Rating", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "16712190", "0", "0", "0", "0", "0", "0", "0"},
+	{strconv.FormatInt(int64(AExpertise.EnchantID()), 10), "0", "5", "0", "0", "0", "0", "0", "0", "0", "0", "37", "0", "0", "+$i Expertise Rating", "", "", "", "", "", "+$i 精准等级", "", "", "", "", "", "", "", "", "", "16712190", "0", "0", "0", "0", "0", "0", "0"},
+	{strconv.FormatInt(int64(AParry.EnchantID()), 10), "0", "5", "0", "0", "0", "0", "0", "0", "0", "0", "14", "0", "0", "+$i Parry Rating", "", "", "", "", "", "+$i 招架等级", "", "", "", "", "", "", "", "", "", "16712190", "0", "0", "0", "0", "0", "0", "0"},
 }
 
 var latinNumerals = []string{"I", "II", "III", "IV", "V"}

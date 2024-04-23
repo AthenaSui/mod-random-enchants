@@ -1,9 +1,9 @@
 -- Delete custom item enchant IDs first
 DELETE FROM spellitemenchantment_dbc WHERE ID IN ({{range $i, $e := .CustomSpellItemEnchantmentEntries -}}{{$e.ID}}{{if not (last $i $.CustomSpellItemEnchantmentEntries)}},{{end}}{{end }});
-INSERT INTO spellitemenchantment_dbc (ID,Effect_1,EffectArg_1,Name_Lang_enUS,Name_Lang_Mask)
+INSERT INTO spellitemenchantment_dbc (ID,Effect_1,EffectArg_1,Name_Lang_zhCN,Name_Lang_Mask)
 VALUES
 {{range $i, $e := .CustomSpellItemEnchantmentEntries -}}
-({{$e.ID}},{{$e.Effect_1}},{{$e.EffectArg_1}},'{{$e.Name_Lang_enUS}}',{{$e.Name_Lang_Mask}}){{if last $i $.CustomSpellItemEnchantmentEntries}};{{else}},{{end}}
+({{$e.ID}},{{$e.Effect_1}},{{$e.EffectArg_1}},'{{$e.Name_Lang_zhCN}}',{{$e.Name_Lang_Mask}}){{if last $i $.CustomSpellItemEnchantmentEntries}};{{else}},{{end}}
 {{end }}
 
 -- Delete the custom random suffixes first
@@ -11,7 +11,7 @@ DELETE FROM itemrandomsuffix_dbc where ID >= {{.CustomItemRandomSuffixStartID}} 
 INSERT INTO itemrandomsuffix_dbc (ID,Name_Lang_enUS,Name_Lang_Mask,InternalName,Enchantment_1,Enchantment_2,Enchantment_3,Enchantment_4,Enchantment_5,AllocationPct_1,AllocationPct_2,AllocationPct_3,AllocationPct_4,AllocationPct_5)
 VALUES
 {{range $i, $e := .CustomItemRandomSuffixEntries -}}
-({{$e.ID}},'{{$e.Name_Lang_enUS}}',{{$e.Name_Lang_Mask}},'{{$e.InternalName}}',{{$e.Enchantment_1}},{{$e.Enchantment_2}},{{$e.Enchantment_3}},{{$e.Enchantment_4}},{{$e.Enchantment_5}},{{$e.AllocationPct_1}},{{$e.AllocationPct_2}},{{$e.AllocationPct_3}},{{$e.AllocationPct_4}},{{$e.AllocationPct_5}}){{if last $i $.CustomItemRandomSuffixEntries}};{{else}},{{end}}
+({{$e.ID}},'{{$e.Name_Lang_zhCN}}',{{$e.Name_Lang_Mask}},'{{$e.InternalName}}',{{$e.Enchantment_1}},{{$e.Enchantment_2}},{{$e.Enchantment_3}},{{$e.Enchantment_4}},{{$e.Enchantment_5}},{{$e.AllocationPct_1}},{{$e.AllocationPct_2}},{{$e.AllocationPct_3}},{{$e.AllocationPct_4}},{{$e.AllocationPct_5}}){{if last $i $.CustomItemRandomSuffixEntries}};{{else}},{{end}}
 {{end }}
 
 -- Add in new enchants

@@ -30,7 +30,7 @@ var generatedSQLTemplate *template.Template
 
 type tmplItemRandomSuffixEntry struct {
 	ID              int32
-	Name_Lang_enUS  string
+	Name_Lang_zhCN  string
 	Name_Lang_Mask  int64
 	InternalName    string
 	Enchantment_1   int32
@@ -49,7 +49,7 @@ type tmplSpellItemEnchantmentEntry struct {
 	ID             string
 	Effect_1       string
 	EffectArg_1    string
-	Name_Lang_enUS string
+	Name_Lang_zhCN string
 	Name_Lang_Mask string
 }
 

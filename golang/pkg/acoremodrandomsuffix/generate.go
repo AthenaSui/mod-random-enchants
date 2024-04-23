@@ -101,7 +101,7 @@ func (e customRandomSuffixEntry) toTmplSQLEntry() tmplItemRandomSuffixEntry {
 	}
 	return tmplItemRandomSuffixEntry{
 		ID:              e.ID,
-		Name_Lang_enUS:  e.displayName(),
+		Name_Lang_zhCN:  e.displayName(),
 		Name_Lang_Mask:  e.nameMask(),
 		InternalName:    e.internalName(),
 		Enchantment_1:   enchIDs[0],
@@ -275,7 +275,7 @@ func Generate(p *ProcessedConfig) error {
 	var tmplSpellItemEnchEntries []tmplSpellItemEnchantmentEntry
 	for _, e := range customSpellItemEnchantDBCCSVEntries[1:] {
 		tmplSpellItemEnchEntries = append(tmplSpellItemEnchEntries, tmplSpellItemEnchantmentEntry{
-			ID: e[0], Effect_1: e[2], EffectArg_1: e[11], Name_Lang_enUS: e[14], Name_Lang_Mask: e[30],
+			ID: e[0], Effect_1: e[2], EffectArg_1: e[11], Name_Lang_zhCN: e[20], Name_Lang_Mask: e[30],
 		})
 	}
 	var tmplRanSuffEntries []tmplItemRandomSuffixEntry

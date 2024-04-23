@@ -70,8 +70,8 @@ func (e customRandomSuffixEntry) toDBCCSVEntry(schema dbc.DBCSchema) ([]string, 
 	row := make([]string, len(schema.Fields))
 	// ID
 	row[0] = strconv.FormatInt(int64(e.ID), 10)
-	// Name
-	row[1] = e.displayName()
+	// Name_zhCN
+	row[5] = e.displayName()
 	// NameMask
 	row[17] = strconv.FormatInt(e.nameMask(), 10)
 	// InternalName

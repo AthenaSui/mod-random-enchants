@@ -24,7 +24,7 @@ bool default_on_vendor_purchase = true;
 bool default_on_all_items_created = true;
 bool default_use_new_random_enchant_system = true;
 bool default_roll_player_class_preference = false;
-std::string default_login_message ="This server is running a RandomEnchants Module.";
+std::string default_login_message ="服务器已启用|cff4CFF00随机附魔|r模块。";
 
 // CONFIGURATION
 
@@ -1026,10 +1026,10 @@ auto getItemEnchantCategoryMask(Item* item)
     }
     if (config_debug)
     {
-        LOG_INFO("module", ">>>>> RANDOM_ENCHANT DEBUG PRINT START <<<<<");
-        LOG_INFO("module", "RANDOM_ENCHANT: Getting item enchant mask, checks below:");
-        LOG_INFO("module", "       For item {}, Item ID is: {}", item->GetTemplate()->Name1, item->GetTemplate()->ItemId);
-        LOG_INFO("module", "       >>> Printing detected item roles/stats profile");
+        LOG_INFO("module", ">>>>> 随机附魔调试开始 <<<<<");
+        LOG_INFO("module", "随机附魔：获取物品附魔掩码，检查如下：");
+        LOG_INFO("module", "       物品 {}, 物品ID：{}", item->GetTemplate()->Name1, item->GetTemplate()->ItemId);
+        LOG_INFO("module", "       >>> 正在打印检测到的物品 职责/统计信息配置文件");
         LOG_INFO("module", "                isRanged = {}", r.isRanged);
         LOG_INFO("module", "                isMelee = {}", r.isMelee);
         LOG_INFO("module", "                isPhysDPS = {}", r.isPhysDPS);
@@ -1037,7 +1037,7 @@ auto getItemEnchantCategoryMask(Item* item)
         LOG_INFO("module", "                isAgi = {}", r.isAgi);
         LOG_INFO("module", "                isTank = {}", r.isTank);
         LOG_INFO("module", "                isCaster = {}", r.isCaster);
-        LOG_INFO("module", "       >>> Printing detected item slots");
+        LOG_INFO("module", "       >>> 正在打印检测到的物品部位");
         LOG_INFO("module", "                isCloth = {}", isCloth);
         LOG_INFO("module", "                isLeather = {}", isLeather);
         LOG_INFO("module", "                isMail = {}", isMail);
@@ -1067,7 +1067,7 @@ auto getItemEnchantCategoryMask(Item* item)
         LOG_INFO("module", "                isHoldable = {}", isHoldable);
         LOG_INFO("module", "                isFinger = {}", isFinger);
         LOG_INFO("module", "                isTrinket = {}", isTrinket);
-        LOG_INFO("module", "       >>> Printing candidate specs");
+        LOG_INFO("module", "       >>> 打印可选专精");
         std::ostringstream stream;
         for (auto s : specPool) {
             auto specName = std::to_string(s);
@@ -1078,7 +1078,7 @@ auto getItemEnchantCategoryMask(Item* item)
         }
         std::string result = stream.str();
         LOG_INFO("module", "                candidate_specs = [{}]", result);
-        LOG_INFO("module", ">>>>> RANDOM_ENCHANT DEBUG PRINT END <<<<<");
+        LOG_INFO("module", ">>>>> 随机附魔调试结束 <<<<<");
     }
     struct retVals {
         uint32 enchCatMask, attrMask;
@@ -1245,6 +1245,20 @@ int GetRolledEnchantLevel()
     }
     return currentTier;
 }
+std::string GetItemLink(uint32 entry, WorldSession* session) const
+{
+    const ItemTemplate* temp = sObjectMgr->GetItemTemplate(entry);
+    int loc_idx = session->GetSessionDbLocaleIndex();
+    std::string name = temp->Name1;
+    if (ItemLocale const* il = sObjectMgr->GetItemLocale(entry))
+        ObjectMgr::GetLocaleString(il->Name, loc_idx, name);
+
+    std::ostringstream oss;
+    oss << "|c" << std::hex << ItemQualityColors[temp->Quality] << std::dec <<
+        "|Hitem:" << entry << ":0:0:0:0:0:0:0:0:0|h[" << name << "]|h|r";
+
+    return oss.str();
+}
 
 void RollPossibleEnchant(Player* player, Item* item)
 {
@@ -1297,7 +1311,7 @@ void RollPossibleEnchant(Player* player, Item* item)
     ChatHandler chathandle = ChatHandler(player->GetSession());
     uint32 loc = player->GetSession()->GetSessionDbLocaleIndex();
     std::string suffixName = item_rand->Name[loc];
-    chathandle.PSendSysMessage("|cffFF0000 %s |rhas rolled the suffix|cffFF0000 %s |r!", item->GetTemplate()->Name1.c_str(), suffixName);
+    chathandle.PSendSysMessage("|cffFF0000 %s |r获得|cffFF0000 %s |r效果！", GetItemLink(item->GetEntry(), player->GetSession()), suffixName);
 }
 
 // END MAIN GET ROLL ENCHANTS FUNCTIONS

@@ -8,7 +8,7 @@ VALUES
 
 -- Delete the custom random suffixes first
 DELETE FROM itemrandomsuffix_dbc where ID >= {{.CustomItemRandomSuffixStartID}} AND ID <= {{.CustomItemRandomSuffixEndID}};
-INSERT INTO itemrandomsuffix_dbc (ID,Name_Lang_enUS,Name_Lang_Mask,InternalName,Enchantment_1,Enchantment_2,Enchantment_3,Enchantment_4,Enchantment_5,AllocationPct_1,AllocationPct_2,AllocationPct_3,AllocationPct_4,AllocationPct_5)
+INSERT INTO itemrandomsuffix_dbc (ID,Name_Lang_zhCN,Name_Lang_Mask,InternalName,Enchantment_1,Enchantment_2,Enchantment_3,Enchantment_4,Enchantment_5,AllocationPct_1,AllocationPct_2,AllocationPct_3,AllocationPct_4,AllocationPct_5)
 VALUES
 {{range $i, $e := .CustomItemRandomSuffixEntries -}}
 ({{$e.ID}},'{{$e.Name_Lang_zhCN}}',{{$e.Name_Lang_Mask}},'{{$e.InternalName}}',{{$e.Enchantment_1}},{{$e.Enchantment_2}},{{$e.Enchantment_3}},{{$e.Enchantment_4}},{{$e.Enchantment_5}},{{$e.AllocationPct_1}},{{$e.AllocationPct_2}},{{$e.AllocationPct_3}},{{$e.AllocationPct_4}},{{$e.AllocationPct_5}}){{if last $i $.CustomItemRandomSuffixEntries}};{{else}},{{end}}

@@ -1,6 +1,6 @@
 -- Delete custom item enchant IDs first
 DELETE FROM spellitemenchantment_dbc WHERE ID IN (9991,9992);
-INSERT INTO spellitemenchantment_dbc (ID,Effect_1,EffectArg_1,Name_Lang_enUS,Name_Lang_Mask)
+INSERT INTO spellitemenchantment_dbc (ID,Effect_1,EffectArg_1,Name_Lang_zhCN,Name_Lang_Mask)
 VALUES
 (9991,5,37,'+$i Expertise Rating',16712190),
 (9992,5,14,'+$i Parry Rating',16712190);

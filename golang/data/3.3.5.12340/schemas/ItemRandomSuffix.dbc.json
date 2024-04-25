@@ -8,10 +8,6 @@
     "type": "string_offset"
   },
   {
-    "name": "Name_Lang_enGB",
-    "type": "string_offset"
-  },
-  {
     "name": "Name_Lang_koKR",
     "type": "string_offset"
   },
@@ -24,15 +20,7 @@
     "type": "string_offset"
   },
   {
-    "name": "Name_Lang_enCN",
-    "type": "string_offset"
-  },
-  {
     "name": "Name_Lang_zhCN",
-    "type": "string_offset"
-  },
-  {
-    "name": "Name_Lang_enTW",
     "type": "string_offset"
   },
   {
@@ -44,11 +32,23 @@
     "type": "string_offset"
   },
   {
-    "name": "Name_Lang_esMX",
+    "name": "Name_Lang_ruRU",
     "type": "string_offset"
   },
   {
-    "name": "Name_Lang_ruRU",
+    "name": "Name_Lang_enGB",
+    "type": "string_offset"
+  },  
+  {
+    "name": "Name_Lang_enCN",
+    "type": "string_offset"
+  },
+  {
+    "name": "Name_Lang_enTW",
+    "type": "string_offset"
+  },
+  {
+    "name": "Name_Lang_esMX",
     "type": "string_offset"
   },
   {

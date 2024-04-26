@@ -19,11 +19,11 @@ src-item-suffix-schema: golang/data/3.3.5.12340/schemas/ItemRandomSuffix.dbc.jso
 src-spell-item-enchant-dbc: golang/data/dbc/SpellItemEnchantment.dbc
 src-spell-item-enchant-schema: golang/data/3.3.5.12340/schemas/SpellItemEnchantment.dbc.json
 
-item-random-suffix-dbc-custom-start-id: 1000          # Custom ItemRandomSuffixDBC entries start from 1000. can refer to your DBC viewer for more info on this.
-number-of-attributes: 4                               # number of attribute per combination, e.g. if 3, then cannot have more than 3 diff attrs for each generated suffix
-number-of-attributes-weapons: 1                       # same as above, but for weapons
+item-random-suffix-dbc-custom-start-id: 1000               # Custom ItemRandomSuffixDBC entries start from 1000. can refer to your DBC viewer for more info on this.
+number-of-attributes: 4                                    # number of attribute per combination, e.g. if 3, then cannot have more than 3 diff attrs for each generated suffix
+number-of-attributes-weapons: 1                            # same as above, but for weapons
 stat-point-alloc-tiers: [10000, 12000, 14000, 16000]
-weapon-stat-penalty: 0.75                             # 0.75 of each tier of `stat-point-alloc-tiers`
+weapon-stat-penalty: 0.75                                  # 0.75 of each tier of `stat-point-alloc-tiers`
 
 dst-generated-world-sql: data/sql/db-world/mod_acore_random_suffix.sql
 dst-generated-item-suffix-dbc: patch-Z.MPQ/DBFilesClient/ItemRandomSuffix.dbc
@@ -82,37 +82,37 @@ suffixes:
   月亮: [Intellect,Stamina,Spirit]
   导师: [Stamina,Spirit,SpellPower]
     # CUSTOM!
-  强壮丨巫术: [Strength,Intellect,Stamina,SpellPower]
-  灵巧丨巫术: [Agility,Intellect,Stamina,SpellPower]
-  迅捷丨巫术: [Intellect,Stamina,SpellPower,Haste]
-  精确丨巫术: [Intellect,Stamina,SpellPower,Hit]
-  果敢丨巫术: [Intellect,Stamina,SpellPower,Crit]
+  力丨巫术: [Strength,Intellect,Stamina,SpellPower]
+  敏丨巫术: [Agility,Intellect,Stamina,SpellPower]
+  速丨巫术: [Intellect,Stamina,SpellPower,Haste]
+  导丨巫术: [Intellect,Stamina,SpellPower,Hit]
+  暴丨巫术: [Intellect,Stamina,SpellPower,Crit]
   机智: [Intellect,Stamina,Haste]
   机智丨果决: [Intellect,Stamina,Haste,Hit]
   权利: [Strength,AttackPower]
   魔剑士: [Strength,Stamina,SpellPower]
-  迅捷丨魔剑士: [Strength,Stamina,SpellPower,Haste]
-  精确丨魔剑士: [Strength,Stamina,SpellPower,Hit]
-  果敢丨魔剑士: [Strength,Stamina,SpellPower,Crit]
-  专家丨魔剑士: [Strength,Stamina,SpellPower,Expertise]
-  谨慎丨魔剑士: [Strength,Stamina,SpellPower,DefenseRating]
-  敏锐丨魔剑士: [Strength,Stamina,SpellPower,Dodge]
-  闪光丨魔剑士: [Strength,Stamina,SpellPower,Parry]
+  速丨魔剑士: [Strength,Stamina,SpellPower,Haste]
+  导丨魔剑士: [Strength,Stamina,SpellPower,Hit]
+  暴丨魔剑士: [Strength,Stamina,SpellPower,Crit]
+  擅丨魔剑士: [Strength,Stamina,SpellPower,Expertise]
+  御丨魔剑士: [Strength,Stamina,SpellPower,DefenseRating]
+  诡丨魔剑士: [Strength,Stamina,SpellPower,Dodge]
+  避丨魔剑士: [Strength,Stamina,SpellPower,Parry]
   狂战士: [Strength,Haste,Crit]
-  专家丨狂战士: [Strength,Haste,Crit,Expertise]
-  谨慎丨狂战士: [Strength,Haste,Crit,DefenseRating]
-  敏锐丨狂战士: [Strength,Haste,Crit,Dodge]
-  闪光丨狂战士: [Strength,Haste,Crit,Parry]
+  擅丨狂战士: [Strength,Haste,Crit,Expertise]
+  御丨狂战士: [Strength,Haste,Crit,DefenseRating]
+  诡丨狂战士: [Strength,Haste,Crit,Dodge]
+  避丨狂战士: [Strength,Haste,Crit,Parry]
   竞争者: [Strength,Agility,Stamina]
-  魔法丨竞争者: [Strength,Agility,Stamina,SpellPower]
-  迅捷丨竞争者: [Strength,Agility,Stamina,Haste]
-  精确丨竞争者: [Strength,Agility,Stamina,Hit]
-  果敢丨竞争者: [Strength,Agility,Stamina,Crit]
-  敏锐丨竞争者: [Strength,Agility,Stamina,Dodge]
-  谨慎丨竞争者: [Strength,Agility,Stamina,DefenseRating]
-  专家丨竞争者: [Strength,Agility,Stamina,Expertise]
-  坚强丨竞争者: [Strength,Agility,Stamina,AttackPower]
-  圣凯: [Strength,SpellPower]
+  魔丨竞争者: [Strength,Agility,Stamina,SpellPower]
+  速丨竞争者: [Strength,Agility,Stamina,Haste]
+  导丨竞争者: [Strength,Agility,Stamina,Hit]
+  暴丨竞争者: [Strength,Agility,Stamina,Crit]
+  诡丨竞争者: [Strength,Agility,Stamina,Dodge]
+  御丨竞争者: [Strength,Agility,Stamina,DefenseRating]
+  擅丨竞争者: [Strength,Agility,Stamina,Expertise]
+  攻丨竞争者: [Strength,Agility,Stamina,AttackPower]
+  公正: [Strength,SpellPower]
   凶猛: [Strength,Haste]
   蚀刻: [Strength,Hit]
   铭文: [Strength,Crit]
@@ -120,277 +120,277 @@ suffixes:
   英勇: [Strength,Stamina,DefenseRating,Dodge]
   耐久: [Strength,Stamina,DefenseRating,Parry]
   狼獾: [Strength,Agility,AttackPower]
-  魔化丨狼獾: [Strength,Agility,AttackPower,SpellPower]
-  迅捷丨狼獾: [Strength,Agility,AttackPower,Haste]
-  精确丨狼獾: [Strength,Agility,AttackPower,Hit]
-  果敢丨狼獾: [Strength,Agility,AttackPower,Crit]
-  专家丨狼獾: [Strength,Agility,AttackPower,Expertise]
-  谨慎丨狼獾: [Strength,Agility,AttackPower,DefenseRating]
-  敏锐丨狼獾: [Strength,Agility,AttackPower,Dodge]
-  迅捷丨圣者: [Spirit,Stamina,SpellPower,Haste]
-  精确丨圣者: [Spirit,Stamina,SpellPower,Hit]
-  果敢丨圣者: [Spirit,Stamina,SpellPower,Crit]
+  魔丨狼獾: [Strength,Agility,AttackPower,SpellPower]
+  速丨狼獾: [Strength,Agility,AttackPower,Haste]
+  导丨狼獾: [Strength,Agility,AttackPower,Hit]
+  暴丨狼獾: [Strength,Agility,AttackPower,Crit]
+  擅丨狼獾: [Strength,Agility,AttackPower,Expertise]
+  御丨狼獾: [Strength,Agility,AttackPower,DefenseRating]
+  诡丨狼獾: [Strength,Agility,AttackPower,Dodge]
+  速丨圣者: [Spirit,Stamina,SpellPower,Haste]
+  导丨圣者: [Spirit,Stamina,SpellPower,Hit]
+  暴丨圣者: [Spirit,Stamina,SpellPower,Crit]
   欺诈者: [Strength,Agility,SpellPower]
-  迅捷丨欺诈者: [Strength,Agility,SpellPower,Haste]
-  精确丨欺诈者: [Strength,Agility,SpellPower,Hit]
-  果敢丨欺诈者: [Strength,Agility,SpellPower,Crit]
-  专家丨欺诈者: [Strength,Agility,SpellPower,Expertise]
-  谨慎丨欺诈者: [Strength,Agility,SpellPower,DefenseRating]
-  敏锐丨欺诈者: [Strength,Agility,SpellPower,Dodge]
+  速丨欺诈者: [Strength,Agility,SpellPower,Haste]
+  导丨欺诈者: [Strength,Agility,SpellPower,Hit]
+  暴丨欺诈者: [Strength,Agility,SpellPower,Crit]
+  擅丨欺诈者: [Strength,Agility,SpellPower,Expertise]
+  御丨欺诈者: [Strength,Agility,SpellPower,DefenseRating]
+  诡丨欺诈者: [Strength,Agility,SpellPower,Dodge]
   僧侣: [Strength,Agility,Haste]
-  精确丨僧侣: [Strength,Agility,Haste,Hit]
-  果敢丨僧侣: [Strength,Agility,Haste,Crit]
-  专家丨僧侣: [Strength,Agility,Haste,Expertise]
-  谨慎丨僧侣: [Strength,Agility,Haste,DefenseRating]
-  敏锐丨僧侣: [Strength,Agility,Haste,Dodge]
+  导丨僧侣: [Strength,Agility,Haste,Hit]
+  暴丨僧侣: [Strength,Agility,Haste,Crit]
+  擅丨僧侣: [Strength,Agility,Haste,Expertise]
+  御丨僧侣: [Strength,Agility,Haste,DefenseRating]
+  诡丨僧侣: [Strength,Agility,Haste,Dodge]
   斗士: [Strength,Agility,Hit]
-  果敢丨斗士: [Strength,Agility,Hit,Crit]
-  专家丨斗士: [Strength,Agility,Hit,Expertise]
-  谨慎丨斗士: [Strength,Agility,Hit,DefenseRating]
-  敏锐丨斗士: [Strength,Agility,Hit,Dodge]
+  暴丨斗士: [Strength,Agility,Hit,Crit]
+  擅丨斗士: [Strength,Agility,Hit,Expertise]
+  御丨斗士: [Strength,Agility,Hit,DefenseRating]
+  诡丨斗士: [Strength,Agility,Hit,Dodge]
   魔斗士: [Strength,Agility,Crit]
-  专家丨魔斗士: [Strength,Agility,Crit,Expertise]
-  谨慎丨魔斗士: [Strength,Agility,Crit,DefenseRating]
-  敏锐丨魔斗士: [Strength,Agility,Crit,Dodge]
+  擅丨魔斗士: [Strength,Agility,Crit,Expertise]
+  御丨魔斗士: [Strength,Agility,Crit,DefenseRating]
+  诡丨魔斗士: [Strength,Agility,Crit,Dodge]
   武术师: [Strength,Agility,Expertise]
-  谨慎丨武术师: [Strength,Agility,Expertise,DefenseRating]
-  敏锐丨武术师: [Strength,Agility,Expertise,Dodge]
+  御丨武术师: [Strength,Agility,Expertise,DefenseRating]
+  诡丨武术师: [Strength,Agility,Expertise,Dodge]
   幸存者: [Strength,Agility,DefenseRating]
-  敏锐丨 Survivor: [Strength,Agility,DefenseRating,Dodge]
+  诡丨幸存者: [Strength,Agility,DefenseRating,Dodge]
   协同: [Strength,Agility,Dodge]
   守备官: [Strength,Intellect,Stamina]
-  坚强丨守备官: [Strength,Intellect,Stamina,AttackPower]
-  迅捷丨守备官: [Strength,Intellect,Stamina,Haste]
-  精确丨守备官: [Strength,Intellect,Stamina,Hit]
-  果敢丨守备官: [Strength,Intellect,Stamina,Crit]
-  专家丨守备官: [Strength,Intellect,Stamina,Expertise]
-  谨慎丨守备官: [Strength,Intellect,Stamina,DefenseRating]
-  敏锐丨守备官: [Strength,Intellect,Stamina,Dodge]
-  闪光丨守备官: [Strength,Intellect,Stamina,Parry]
+  攻丨守备官: [Strength,Intellect,Stamina,AttackPower]
+  速丨守备官: [Strength,Intellect,Stamina,Haste]
+  导丨守备官: [Strength,Intellect,Stamina,Hit]
+  暴丨守备官: [Strength,Intellect,Stamina,Crit]
+  擅丨守备官: [Strength,Intellect,Stamina,Expertise]
+  御丨守备官: [Strength,Intellect,Stamina,DefenseRating]
+  诡丨守备官: [Strength,Intellect,Stamina,Dodge]
+  避丨守备官: [Strength,Intellect,Stamina,Parry]
   骑兵: [Strength,Intellect,AttackPower]
   圣骑士: [Strength,Intellect,AttackPower,SpellPower]
-  迅捷丨骑士: [Strength,Intellect,AttackPower,Haste]
-  精确丨骑士: [Strength,Intellect,AttackPower,Hit]
-  果敢丨骑士: [Strength,Intellect,AttackPower,Crit]
-  专家丨骑士: [Strength,Intellect,AttackPower,Expertise]
-  谨慎丨骑士: [Strength,Intellect,AttackPower,DefenseRating]
-  敏锐丨骑士: [Strength,Intellect,AttackPower,Dodge]
-  闪光丨骑士: [Strength,Intellect,AttackPower,Parry]
+  速丨骑士: [Strength,Intellect,AttackPower,Haste]
+  导丨骑士: [Strength,Intellect,AttackPower,Hit]
+  暴丨骑士: [Strength,Intellect,AttackPower,Crit]
+  擅丨骑士: [Strength,Intellect,AttackPower,Expertise]
+  御丨骑士: [Strength,Intellect,AttackPower,DefenseRating]
+  诡丨骑士: [Strength,Intellect,AttackPower,Dodge]
+  避丨骑士: [Strength,Intellect,AttackPower,Parry]
   魔战士: [Strength,Intellect,SpellPower]
-  迅捷丨魔战士: [Strength,Intellect,SpellPower,Haste]
-  精确丨魔战士: [Strength,Intellect,SpellPower,Hit]
-  果敢丨魔战士: [Strength,Intellect,SpellPower,Crit]
-  专家丨魔战士: [Strength,Intellect,SpellPower,Expertise]
-  谨慎丨魔战士: [Strength,Intellect,SpellPower,DefenseRating]
-  敏锐丨魔战士: [Strength,Intellect,SpellPower,Dodge]
-  闪光丨魔战士: [Strength,Intellect,SpellPower,Parry]
+  速丨魔战士: [Strength,Intellect,SpellPower,Haste]
+  导丨魔战士: [Strength,Intellect,SpellPower,Hit]
+  暴丨魔战士: [Strength,Intellect,SpellPower,Crit]
+  擅丨魔战士: [Strength,Intellect,SpellPower,Expertise]
+  御丨魔战士: [Strength,Intellect,SpellPower,DefenseRating]
+  诡丨魔战士: [Strength,Intellect,SpellPower,Dodge]
+  避丨魔战士: [Strength,Intellect,SpellPower,Parry]
   信徒: [Strength,Intellect,Haste]
-  精确丨信徒: [Strength,Intellect,Haste,Hit]
-  果敢丨信徒: [Strength,Intellect,Haste,Crit]
-  专家丨信徒: [Strength,Intellect,Haste,Expertise]
-  谨慎丨信徒: [Strength,Intellect,Haste,DefenseRating]
-  敏锐丨信徒: [Strength,Intellect,Haste,Dodge]
-  闪光丨信徒: [Strength,Intellect,Haste,Parry]
+  导丨信徒: [Strength,Intellect,Haste,Hit]
+  暴丨信徒: [Strength,Intellect,Haste,Crit]
+  擅丨信徒: [Strength,Intellect,Haste,Expertise]
+  御丨信徒: [Strength,Intellect,Haste,DefenseRating]
+  诡丨信徒: [Strength,Intellect,Haste,Dodge]
+  避丨信徒: [Strength,Intellect,Haste,Parry]
   搜寻者: [Strength,Intellect,Hit]
-  果敢丨搜寻者: [Strength,Intellect,Hit,Crit]
-  专家丨搜寻者: [Strength,Intellect,Hit,Expertise]
-  谨慎丨搜寻者: [Strength,Intellect,Hit,DefenseRating]
-  敏锐丨搜寻者: [Strength,Intellect,Hit,Dodge]
-  闪光丨搜寻者: [Strength,Intellect,Hit,Parry]
+  暴丨搜寻者: [Strength,Intellect,Hit,Crit]
+  擅丨搜寻者: [Strength,Intellect,Hit,Expertise]
+  御丨搜寻者: [Strength,Intellect,Hit,DefenseRating]
+  诡丨搜寻者: [Strength,Intellect,Hit,Dodge]
+  避丨搜寻者: [Strength,Intellect,Hit,Parry]
   司法者: [Strength,Intellect,Crit]
-  专家丨司法者: [Strength,Intellect,Crit,Expertise]
-  谨慎丨司法者: [Strength,Intellect,Crit,DefenseRating]
-  敏锐丨司法者: [Strength,Intellect,Crit,Dodge]
-  闪光丨司法者: [Strength,Intellect,Crit,Parry]
+  擅丨司法者: [Strength,Intellect,Crit,Expertise]
+  御丨司法者: [Strength,Intellect,Crit,DefenseRating]
+  诡丨司法者: [Strength,Intellect,Crit,Dodge]
+  避丨司法者: [Strength,Intellect,Crit,Parry]
   保卫者: [Strength,Intellect,DefenseRating]
-  敏锐丨保卫者: [Strength,Intellect,DefenseRating,Dodge]
-  闪光丨保卫者: [Strength,Intellect,DefenseRating,Parry]
+  诡丨保卫者: [Strength,Intellect,DefenseRating,Dodge]
+  避丨保卫者: [Strength,Intellect,DefenseRating,Parry]
   豪侠: [Strength,Intellect,Expertise]
-  谨慎丨豪侠: [Strength,Intellect,Expertise,DefenseRating]
-  敏锐丨豪侠: [Strength,Intellect,Expertise,Dodge]
-  闪光丨豪侠: [Strength,Intellect,Expertise,Parry]
+  御丨豪侠: [Strength,Intellect,Expertise,DefenseRating]
+  诡丨豪侠: [Strength,Intellect,Expertise,Dodge]
+  避丨豪侠: [Strength,Intellect,Expertise,Parry]
   守卫: [Strength,Intellect,Dodge]
-  闪光丨守卫: [Strength,Intellect,Dodge,Parry]
+  避丨守卫: [Strength,Intellect,Dodge,Parry]
   战舞: [Strength,Intellect,Parry]
   斗者: [Strength,Stamina,Expertise]
-  谨慎丨斗者: [Strength,Stamina,Expertise,DefenseRating]
-  敏锐丨斗者: [Strength,Stamina,Expertise,Dodge]
-  闪光丨斗者: [Strength,Stamina,Expertise,Parry]
+  御丨斗者: [Strength,Stamina,Expertise,DefenseRating]
+  诡丨斗者: [Strength,Stamina,Expertise,Dodge]
+  避丨斗者: [Strength,Stamina,Expertise,Parry]
   搏击: [Strength,Stamina,Dodge]
   剑术师: [Strength,Stamina,Parry]
   战斗法师: [Strength,AttackPower,SpellPower]
-  迅捷丨战斗法师: [Strength,AttackPower,SpellPower,Haste]
-  精确丨战斗法师: [Strength,AttackPower,SpellPower,Hit]
-  果敢丨战斗法师: [Strength,AttackPower,SpellPower,Crit]
-  专家丨战斗法师: [Strength,AttackPower,SpellPower,Expertise]
-  谨慎丨战斗法师: [Strength,AttackPower,SpellPower,DefenseRating]
-  敏锐丨战斗法师: [Strength,AttackPower,SpellPower,Dodge]
-  闪光丨战斗法师: [Strength,AttackPower,SpellPower,Parry]
+  速丨战斗法师: [Strength,AttackPower,SpellPower,Haste]
+  导丨战斗法师: [Strength,AttackPower,SpellPower,Hit]
+  暴丨战斗法师: [Strength,AttackPower,SpellPower,Crit]
+  擅丨战斗法师: [Strength,AttackPower,SpellPower,Expertise]
+  御丨战斗法师: [Strength,AttackPower,SpellPower,DefenseRating]
+  诡丨战斗法师: [Strength,AttackPower,SpellPower,Dodge]
+  避丨战斗法师: [Strength,AttackPower,SpellPower,Parry]
   步兵: [Strength,AttackPower,Haste]
-  精确丨步兵: [Strength,AttackPower,Haste,Hit]
-  果敢丨步兵: [Strength,AttackPower,Haste,Crit]
-  专家丨步兵: [Strength,AttackPower,Haste,Expertise]
-  谨慎丨步兵: [Strength,AttackPower,Haste,DefenseRating]
-  敏锐丨步兵: [Strength,AttackPower,Haste,Dodge]
-  闪光丨步兵: [Strength,AttackPower,Haste,Parry]
+  导丨步兵: [Strength,AttackPower,Haste,Hit]
+  暴丨步兵: [Strength,AttackPower,Haste,Crit]
+  擅丨步兵: [Strength,AttackPower,Haste,Expertise]
+  御丨步兵: [Strength,AttackPower,Haste,DefenseRating]
+  诡丨步兵: [Strength,AttackPower,Haste,Dodge]
+  避丨步兵: [Strength,AttackPower,Haste,Parry]
   战争: [Strength,AttackPower,Hit]
-  果敢丨战争: [Strength,AttackPower,Hit,Crit]
-  专家丨战争: [Strength,AttackPower,Hit,Expertise]
-  谨慎丨战争: [Strength,AttackPower,Hit,DefenseRating]
-  敏锐丨战争: [Strength,AttackPower,Hit,Dodge]
-  闪光丨战争: [Strength,AttackPower,Hit,Parry]
+  暴丨战争: [Strength,AttackPower,Hit,Crit]
+  擅丨战争: [Strength,AttackPower,Hit,Expertise]
+  御丨战争: [Strength,AttackPower,Hit,DefenseRating]
+  诡丨战争: [Strength,AttackPower,Hit,Dodge]
+  避丨战争: [Strength,AttackPower,Hit,Parry]
   水兵: [Strength,AttackPower,Crit]
-  专家丨水兵: [Strength,AttackPower,Crit,Expertise]
-  谨慎丨水兵: [Strength,AttackPower,Crit,DefenseRating]
-  敏锐丨水兵: [Strength,AttackPower,Crit,Dodge]
-  闪光丨水兵: [Strength,AttackPower,Crit,Parry]
+  擅丨水兵: [Strength,AttackPower,Crit,Expertise]
+  御丨水兵: [Strength,AttackPower,Crit,DefenseRating]
+  诡丨水兵: [Strength,AttackPower,Crit,Dodge]
+  避丨水兵: [Strength,AttackPower,Crit,Parry]
   老兵: [Strength,AttackPower,Expertise]
-  谨慎丨老兵: [Strength,AttackPower,Expertise,DefenseRating]
-  敏锐丨老兵: [Strength,AttackPower,Expertise,Dodge]
-  闪光丨老兵: [Strength,AttackPower,Expertise,Parry]
+  御丨老兵: [Strength,AttackPower,Expertise,DefenseRating]
+  诡丨老兵: [Strength,AttackPower,Expertise,Dodge]
+  避丨老兵: [Strength,AttackPower,Expertise,Parry]
   卫兵: [Strength,AttackPower,DefenseRating]
-  敏锐丨卫兵: [Strength,AttackPower,DefenseRating,Dodge]
-  闪光丨卫兵: [Strength,AttackPower,DefenseRating,Parry]
-  敏锐丨角斗士: [Strength,AttackPower,Dodge]
-  闪光丨角斗士: [Strength,AttackPower,Parry]
-  感知丨角斗士: [Strength,AttackPower,Dodge,Parry]
+  诡丨卫兵: [Strength,AttackPower,DefenseRating,Dodge]
+  避丨卫兵: [Strength,AttackPower,DefenseRating,Parry]
+  诡丨角斗士: [Strength,AttackPower,Dodge]
+  避丨角斗士: [Strength,AttackPower,Parry]
+  察丨角斗士: [Strength,AttackPower,Dodge,Parry]
   追随者: [Strength,SpellPower,Haste]
-  精确丨追随者: [Strength,SpellPower,Haste,Hit]
-  果敢丨追随者: [Strength,SpellPower,Haste,Crit]
-  专家丨追随者: [Strength,SpellPower,Haste,Expertise]
-  谨慎丨追随者: [Strength,SpellPower,Haste,DefenseRating]
-  敏锐丨追随者: [Strength,SpellPower,Haste,Dodge]
-  闪光丨追随者: [Strength,SpellPower,Haste,Parry]
-  使者: [Strength,SpellPower,Hit]
-  果敢丨使者: [Strength,SpellPower,Hit,Crit]
-  专家丨使者: [Strength,SpellPower,Hit,Expertise]
-  谨慎丨使者: [Strength,SpellPower,Hit,DefenseRating]
-  敏锐丨使者: [Strength,SpellPower,Hit,Dodge]
-  闪光丨使者: [Strength,SpellPower,Hit,Parry]
+  导丨追随者: [Strength,SpellPower,Haste,Hit]
+  暴丨追随者: [Strength,SpellPower,Haste,Crit]
+  擅丨追随者: [Strength,SpellPower,Haste,Expertise]
+  御丨追随者: [Strength,SpellPower,Haste,DefenseRating]
+  诡丨追随者: [Strength,SpellPower,Haste,Dodge]
+  避丨追随者: [Strength,SpellPower,Haste,Parry]
+  神使: [Strength,SpellPower,Hit]
+  暴丨神使: [Strength,SpellPower,Hit,Crit]
+  擅丨神使: [Strength,SpellPower,Hit,Expertise]
+  御丨神使: [Strength,SpellPower,Hit,DefenseRating]
+  诡丨神使: [Strength,SpellPower,Hit,Dodge]
+  避丨神使: [Strength,SpellPower,Hit,Parry]
   潜修者: [Strength,SpellPower,Crit]
-  专家丨潜修者: [Strength,SpellPower,Crit,Expertise]
-  谨慎丨潜修者: [Strength,SpellPower,Crit,DefenseRating]
-  敏锐丨潜修者: [Strength,SpellPower,Crit,Dodge]
-  闪光丨潜修者: [Strength,SpellPower,Crit,Parry]
-  敏锐丨圣凯: [Strength,SpellPower,Dodge]
-  感知丨圣凯: [Strength,SpellPower,Dodge,Parry]
-  闪光丨圣凯: [Strength,SpellPower,Parry]
+  擅丨潜修者: [Strength,SpellPower,Crit,Expertise]
+  御丨潜修者: [Strength,SpellPower,Crit,DefenseRating]
+  诡丨潜修者: [Strength,SpellPower,Crit,Dodge]
+  避丨潜修者: [Strength,SpellPower,Crit,Parry]
+  诡丨公正: [Strength,SpellPower,Dodge]
+  圣凯: [Strength,SpellPower,Dodge,Parry]
+  避丨公正: [Strength,SpellPower,Parry]
   好战者: [Strength,Haste,Hit]
-  果敢丨好战者: [Strength,Haste,Hit,Crit]
-  专家丨好战者: [Strength,Haste,Hit,Expertise]
-  谨慎丨好战者: [Strength,Haste,Hit,DefenseRating]
-  敏锐丨好战者: [Strength,Haste,Hit,Dodge]
-  闪光丨好战者: [Strength,Haste,Hit,Parry]
+  暴丨好战者: [Strength,Haste,Hit,Crit]
+  擅丨好战者: [Strength,Haste,Hit,Expertise]
+  御丨好战者: [Strength,Haste,Hit,DefenseRating]
+  诡丨好战者: [Strength,Haste,Hit,Dodge]
+  避丨好战者: [Strength,Haste,Hit,Parry]
   好斗者: [Strength,Haste,Expertise]
-  谨慎丨好斗者: [Strength,Haste,Expertise,DefenseRating]
-  敏锐丨好斗者: [Strength,Haste,Expertise,Dodge]
-  闪光丨好斗者: [Strength,Haste,Expertise,Parry]
+  御丨好斗者: [Strength,Haste,Expertise,DefenseRating]
+  诡丨好斗者: [Strength,Haste,Expertise,Dodge]
+  避丨好斗者: [Strength,Haste,Expertise,Parry]
   护卫: [Strength,Haste,DefenseRating]
-  敏锐丨护卫: [Strength,Haste,DefenseRating,Dodge]
-  闪光丨护卫: [Strength,Haste,DefenseRating,Parry]
-  敏锐丨哨兵: [Strength,Haste,Dodge]
-  感知丨哨兵: [Strength,Haste,Dodge,Parry]
-  闪光丨哨兵: [Strength,Haste,Parry]
-  敏锐丨格斗者: [Strength,Hit,Dodge]
-  感知丨格斗者: [Strength,Hit,Dodge,Parry]
-  闪光丨格斗者: [Strength,Hit,Parry]
+  诡丨护卫: [Strength,Haste,DefenseRating,Dodge]
+  避丨护卫: [Strength,Haste,DefenseRating,Parry]
+  诡丨哨兵: [Strength,Haste,Dodge]
+  察丨哨兵: [Strength,Haste,Dodge,Parry]
+  避丨哨兵: [Strength,Haste,Parry]
+  诡丨格斗者: [Strength,Hit,Dodge]
+  察丨格斗者: [Strength,Hit,Dodge,Parry]
+  避丨格斗者: [Strength,Hit,Parry]
   卫士: [Strength,Hit,Crit]
-  专家丨卫士: [Strength,Hit,Crit,Expertise]
-  谨慎丨攻击者: [Strength,Crit,Expertise,DefenseRating]
-  谨慎丨拳手: [Strength,Hit,Expertise,DefenseRating]
-  谨慎丨卫士: [Strength,Hit,Crit,DefenseRating]
+  擅丨卫士: [Strength,Hit,Crit,Expertise]
+  御丨攻击者: [Strength,Crit,Expertise,DefenseRating]
+  御丨拳手: [Strength,Hit,Expertise,DefenseRating]
+  御丨卫士: [Strength,Hit,Crit,DefenseRating]
   拳手: [Strength,Hit,Expertise]
   挑战者: [Strength,Hit,DefenseRating]
   攻击者: [Strength,Crit,Expertise]
   寻衅者: [Strength,Crit,DefenseRating]
   流浪者: [Strength,Expertise,DefenseRating]
-  敏锐丨固执: [Strength,Expertise,Dodge]
-  感知丨固执: [Strength,Expertise,Dodge,Parry]
-  敏锐丨教唆者: [Strength,DefenseRating,Dodge]
-  感知丨教唆者: [Strength,DefenseRating,Dodge,Parry]
-  闪光丨教唆者: [Strength,DefenseRating,Parry]
-  敏锐丨破坏者: [Strength,Crit,Dodge]
-  感知丨破坏者: [Strength,Crit,Dodge,Parry]
-  闪光丨破坏者: [Strength,Crit,Parry]
-  敏锐丨流浪者: [Strength,Expertise,DefenseRating,Dodge]
-  闪光丨流浪者: [Strength,Expertise,DefenseRating,Parry]
-  敏锐丨攻击者: [Strength,Crit,Expertise,Dodge]
-  闪光丨攻击者: [Strength,Crit,Expertise,Parry]
-  敏锐丨寻衅者: [Strength,Crit,DefenseRating,Dodge]
-  闪光丨寻衅者: [Strength,Crit,DefenseRating,Parry]
-  敏锐丨卫士: [Strength,Hit,Crit,Dodge]
-  闪光丨卫士: [Strength,Hit,Crit,Parry]
-  敏锐丨拳手: [Strength,Hit,Expertise,Dodge]
-  闪光丨拳手: [Strength,Hit,Expertise,Parry]
-  敏锐丨挑战者: [Strength,Hit,DefenseRating,Dodge]
-  闪光丨挑战者: [Strength,Hit,DefenseRating,Parry]
+  诡丨固执: [Strength,Expertise,Dodge]
+  察丨固执: [Strength,Expertise,Dodge,Parry]
+  诡丨教唆者: [Strength,DefenseRating,Dodge]
+  察丨教唆者: [Strength,DefenseRating,Dodge,Parry]
+  避丨教唆者: [Strength,DefenseRating,Parry]
+  诡丨破坏者: [Strength,Crit,Dodge]
+  察丨破坏者: [Strength,Crit,Dodge,Parry]
+  避丨破坏者: [Strength,Crit,Parry]
+  诡丨流浪者: [Strength,Expertise,DefenseRating,Dodge]
+  避丨流浪者: [Strength,Expertise,DefenseRating,Parry]
+  诡丨攻击者: [Strength,Crit,Expertise,Dodge]
+  避丨攻击者: [Strength,Crit,Expertise,Parry]
+  诡丨寻衅者: [Strength,Crit,DefenseRating,Dodge]
+  避丨寻衅者: [Strength,Crit,DefenseRating,Parry]
+  诡丨卫士: [Strength,Hit,Crit,Dodge]
+  避丨卫士: [Strength,Hit,Crit,Parry]
+  诡丨拳手: [Strength,Hit,Expertise,Dodge]
+  避丨拳手: [Strength,Hit,Expertise,Parry]
+  诡丨挑战者: [Strength,Hit,DefenseRating,Dodge]
+  避丨挑战者: [Strength,Hit,DefenseRating,Parry]
   阵列: [Strength,Expertise,Parry]
   金钟罩: [Strength,Dodge,Parry]
   破法者: [Strength,SpellPower,DefenseRating]
-  敏锐丨破法者: [Strength,SpellPower,DefenseRating,Dodge]
-  闪光丨破法者: [Strength,SpellPower,DefenseRating,Parry]
+  诡丨破法者: [Strength,SpellPower,DefenseRating,Dodge]
+  避丨破法者: [Strength,SpellPower,DefenseRating,Parry]
   争斗者: [Strength,SpellPower,Expertise]
-  闪光丨争斗者: [Strength,SpellPower,Expertise,Parry]
-  谨慎丨争斗者: [Strength,SpellPower,Expertise,DefenseRating]
-  敏锐丨争斗者: [Strength,SpellPower,Expertise,Dodge]
+  避丨争斗者: [Strength,SpellPower,Expertise,Parry]
+  御丨争斗者: [Strength,SpellPower,Expertise,DefenseRating]
+  诡丨争斗者: [Strength,SpellPower,Expertise,Dodge]
   抛金者: [Agility,Intellect,Stamina]
   相术师: [Agility,Intellect,SpellPower]
   魔法师: [Agility,Intellect,Haste]
   魔术师: [Agility,Intellect,Hit]
   巫毒: [Agility,Intellect,Crit]
   霸王: [Agility,Intellect,Expertise]
-  谎言: [Agility,Stamina,SpellPower]
+  污染者: [Agility,Stamina,SpellPower]
   风舞者: [Agility,Stamina,Haste]
-  逃犯: [Agility,Stamina,Expertise]
+  囚徒: [Agility,Stamina,Expertise]
   胜利者: [Agility,Stamina,DefenseRating]
   夜歌: [Agility,Stamina,Dodge]
   梦游者: [Agility,AttackPower,SpellPower]
   恶徒: [Agility,AttackPower,Haste]
-  坚强丨抛金者: [Agility,Intellect,Stamina,AttackPower]
-  迅捷丨抛金者: [Agility,Intellect,Stamina,Haste]
-  迅捷丨相术师: [Agility,Intellect,SpellPower,Haste]
-  迅捷丨谎言: [Agility,Stamina,SpellPower,Haste]
-  迅捷丨梦游者: [Agility,AttackPower,SpellPower,Haste]
-  精确丨抛金者: [Agility,Intellect,Stamina,Hit]
-  精确丨相术师: [Agility,Intellect,SpellPower,Hit]
-  精确丨魔法师: [Agility,Intellect,Haste,Hit]
-  精确丨谎言: [Agility,Stamina,SpellPower,Hit]
-  精确丨风舞者: [Agility,Stamina,Haste,Hit]
-  精确丨梦游者: [Agility,AttackPower,SpellPower,Hit]
-  精确丨恶徒: [Agility,AttackPower,Haste,Hit]
-  果敢丨抛金者: [Agility,Intellect,Stamina,Crit]
-  果敢丨相术师: [Agility,Intellect,SpellPower,Crit]
-  果敢丨魔法师: [Agility,Intellect,Haste,Crit]
-  果敢丨魔术师: [Agility,Intellect,Hit,Crit]
-  果敢丨谎言: [Agility,Stamina,SpellPower,Crit]
-  果敢丨梦游者: [Agility,AttackPower,SpellPower,Crit]
-  果敢丨恶徒: [Agility,AttackPower,Haste,Crit]
-  专家丨抛金者: [Agility,Intellect,Stamina,Expertise]
-  专家丨相术师: [Agility,Intellect,SpellPower,Expertise]
-  专家丨魔法师: [Agility,Intellect,Haste,Expertise]
-  专家丨魔术师: [Agility,Intellect,Hit,Expertise]
-  专家丨巫毒: [Agility,Intellect,Crit,Expertise]
-  专家丨谎言: [Agility,Stamina,SpellPower,Expertise]
-  专家丨风舞者: [Agility,Stamina,Haste,Expertise]
-  专家丨梦游者: [Agility,AttackPower,SpellPower,Expertise]
-  专家丨恶徒: [Agility,AttackPower,Haste,Expertise]
-  谨慎丨风舞者: [Agility,Stamina,Haste,DefenseRating]
-  谨慎丨恶徒: [Agility,AttackPower,Haste,DefenseRating]
-  敏锐丨风舞者: [Agility,Stamina,Haste,Dodge]
-  敏锐丨胜利者: [Agility,Stamina,DefenseRating,Dodge]
-  敏锐丨恶徒: [Agility,AttackPower,Haste,Dodge]
+  攻丨抛金者: [Agility,Intellect,Stamina,AttackPower]
+  速丨抛金者: [Agility,Intellect,Stamina,Haste]
+  速丨相术师: [Agility,Intellect,SpellPower,Haste]
+  速丨污染者: [Agility,Stamina,SpellPower,Haste]
+  速丨梦游者: [Agility,AttackPower,SpellPower,Haste]
+  导丨抛金者: [Agility,Intellect,Stamina,Hit]
+  导丨相术师: [Agility,Intellect,SpellPower,Hit]
+  导丨魔法师: [Agility,Intellect,Haste,Hit]
+  导丨污染者: [Agility,Stamina,SpellPower,Hit]
+  导丨风舞者: [Agility,Stamina,Haste,Hit]
+  导丨梦游者: [Agility,AttackPower,SpellPower,Hit]
+  导丨恶徒: [Agility,AttackPower,Haste,Hit]
+  暴丨抛金者: [Agility,Intellect,Stamina,Crit]
+  暴丨相术师: [Agility,Intellect,SpellPower,Crit]
+  暴丨魔法师: [Agility,Intellect,Haste,Crit]
+  暴丨魔术师: [Agility,Intellect,Hit,Crit]
+  暴丨污染者: [Agility,Stamina,SpellPower,Crit]
+  暴丨梦游者: [Agility,AttackPower,SpellPower,Crit]
+  暴丨恶徒: [Agility,AttackPower,Haste,Crit]
+  擅丨抛金者: [Agility,Intellect,Stamina,Expertise]
+  擅丨相术师: [Agility,Intellect,SpellPower,Expertise]
+  擅丨魔法师: [Agility,Intellect,Haste,Expertise]
+  擅丨魔术师: [Agility,Intellect,Hit,Expertise]
+  擅丨巫毒: [Agility,Intellect,Crit,Expertise]
+  擅丨污染者: [Agility,Stamina,SpellPower,Expertise]
+  擅丨风舞者: [Agility,Stamina,Haste,Expertise]
+  擅丨梦游者: [Agility,AttackPower,SpellPower,Expertise]
+  擅丨恶徒: [Agility,AttackPower,Haste,Expertise]
+  御丨风舞者: [Agility,Stamina,Haste,DefenseRating]
+  御丨恶徒: [Agility,AttackPower,Haste,DefenseRating]
+  诡丨风舞者: [Agility,Stamina,Haste,Dodge]
+  诡丨胜利者: [Agility,Stamina,DefenseRating,Dodge]
+  诡丨恶徒: [Agility,AttackPower,Haste,Dodge]
   潜藏者: [Agility,AttackPower,Hit]
   蛮兵: [Agility,AttackPower,Crit]
-  果敢丨潜藏者: [Agility,AttackPower,Hit,Crit]
-  专家丨潜藏者: [Agility,AttackPower,Hit,Expertise]
-  专家丨蛮兵: [Agility,AttackPower,Crit,Expertise]
-  谨慎丨潜藏者: [Agility,AttackPower,Hit,DefenseRating]
-  谨慎丨蛮兵: [Agility,AttackPower,Crit,DefenseRating]
-  敏锐丨潜藏者: [Agility,AttackPower,Hit,Dodge]
-  敏锐丨蛮兵: [Agility,AttackPower,Crit,Dodge]
+  暴丨潜藏者: [Agility,AttackPower,Hit,Crit]
+  擅丨潜藏者: [Agility,AttackPower,Hit,Expertise]
+  擅丨蛮兵: [Agility,AttackPower,Crit,Expertise]
+  御丨潜藏者: [Agility,AttackPower,Hit,DefenseRating]
+  御丨蛮兵: [Agility,AttackPower,Crit,DefenseRating]
+  诡丨潜藏者: [Agility,AttackPower,Hit,Dodge]
+  诡丨蛮兵: [Agility,AttackPower,Crit,Dodge]
   狡诈者: [Agility,AttackPower,Expertise]
   海盗: [Agility,AttackPower,DefenseRating]
-  敏锐丨海盗: [Agility,AttackPower,DefenseRating,Dodge]
+  诡丨海盗: [Agility,AttackPower,DefenseRating,Dodge]
   豹熊: [Agility,AttackPower,Dodge]
   怒风: [Agility,SpellPower,Haste]
   水手: [Agility,SpellPower,Crit]
@@ -399,24 +399,24 @@ suffixes:
   雷霆: [Agility,SpellPower,Hit]
   偷窃者: [Agility,Haste,Crit]
   恶霸: [Agility,Haste,Expertise]
-  精确丨怒风: [Agility,SpellPower,Haste,Hit]
-  果敢丨怒风: [Agility,SpellPower,Haste,Crit]
-  果敢丨雷霆: [Agility,SpellPower,Hit,Crit]
-  果敢丨暴徒: [Agility,Haste,Hit,Crit]
-  专家丨怒风: [Agility,SpellPower,Haste,Expertise]
-  专家丨雷霆: [Agility,SpellPower,Hit,Expertise]
-  专家丨水手: [Agility,SpellPower,Crit,Expertise]
-  专家丨暴徒: [Agility,Haste,Hit,Expertise]
-  专家丨偷窃者: [Agility,Haste,Crit,Expertise]
-  谨慎丨暴徒: [Agility,Haste,Hit,DefenseRating]
-  谨慎丨偷窃者: [Agility,Haste,Crit,DefenseRating]
-  敏锐丨暴徒: [Agility,Haste,Hit,Dodge]
-  敏锐丨偷窃者: [Agility,Haste,Crit,Dodge]
+  导丨怒风: [Agility,SpellPower,Haste,Hit]
+  暴丨怒风: [Agility,SpellPower,Haste,Crit]
+  暴丨雷霆: [Agility,SpellPower,Hit,Crit]
+  暴丨暴徒: [Agility,Haste,Hit,Crit]
+  擅丨怒风: [Agility,SpellPower,Haste,Expertise]
+  擅丨雷霆: [Agility,SpellPower,Hit,Expertise]
+  擅丨水手: [Agility,SpellPower,Crit,Expertise]
+  擅丨暴徒: [Agility,Haste,Hit,Expertise]
+  擅丨偷窃者: [Agility,Haste,Crit,Expertise]
+  御丨暴徒: [Agility,Haste,Hit,DefenseRating]
+  御丨偷窃者: [Agility,Haste,Crit,DefenseRating]
+  诡丨暴徒: [Agility,Haste,Hit,Dodge]
+  诡丨偷窃者: [Agility,Haste,Crit,Dodge]
   精确: [Strength,Expertise]
   骁勇: [Strength,Dodge]
   闪光: [Strength,Parry]
-  坚强丨敏捷: [Agility,AttackPower]
-  魔化丨敏捷: [Agility,SpellPower]
+  攻丨敏捷: [Agility,AttackPower]
+  魔丨敏捷: [Agility,SpellPower]
   轻巧: [Agility,Haste]
   反光: [Agility,Hit]
   致命: [Agility,Crit]
@@ -427,7 +427,7 @@ suffixes:
   隐秘: [Intellect,Hit]
   高能: [Intellect,Crit]
   纯净: [Spirit,SpellPower]
-  精确丨精神: [Spirit,Hit]
+  导丨精神: [Spirit,Hit]
   充能: [Stamina,AttackPower]
   炽热: [Stamina,SpellPower]
   坚强: [Stamina,Haste]
@@ -437,16 +437,16 @@ suffixes:
   稳固: [Stamina,DefenseRating]
   华丽: [Stamina,Dodge]
   防御者: [Stamina,Parry]
-  迅捷丨能量: [AttackPower,Haste]
-  精确丨能量: [AttackPower,Hit]
-  果敢丨能量: [AttackPower,Crit]
-  专家丨能量: [AttackPower,Expertise]
-  谨慎丨能量: [AttackPower,DefenseRating]
-  敏锐丨能量: [AttackPower,Dodge]
-  闪光丨能量: [AttackPower,Parry]
-  迅捷丨魔法: [SpellPower,Haste]
-  精确丨魔法: [SpellPower,Hit]
-  果敢丨魔法: [SpellPower,Crit]
+  速丨能量: [AttackPower,Haste]
+  导丨能量: [AttackPower,Hit]
+  暴丨能量: [AttackPower,Crit]
+  擅丨能量: [AttackPower,Expertise]
+  御丨能量: [AttackPower,DefenseRating]
+  诡丨能量: [AttackPower,Dodge]
+  避丨能量: [AttackPower,Parry]
+  速丨魔法: [SpellPower,Haste]
+  导丨魔法: [SpellPower,Hit]
+  暴丨魔法: [SpellPower,Crit]
   闪电: [Haste,Hit]
   邪恶: [Haste,Expertise]
   诡秘: [Haste,DefenseRating]
@@ -494,37 +494,37 @@ suffixes:
   化身: [Spirit,Haste,Hit]
   通灵者: [Spirit,Haste,Crit]
   占星者: [Spirit,Hit,Crit]
-  魔化丨月亮: [Intellect,Spirit,Stamina,SpellPower]
-  果敢丨神学者: [Intellect,Spirit,Haste,Crit]
-  果敢丨咒术师: [Intellect,Spirit,Hit,Crit]
-  果敢丨智者: [Intellect,Stamina,Hit,Crit]
-  果敢丨占星师: [Intellect,SpellPower,Hit,Crit]
-  果敢丨巫师: [Intellect,Haste,Hit,Crit]
-  果敢丨神谕者: [Spirit,Stamina,Haste,Crit]
-  果敢丨月亮: [Intellect,Spirit,Stamina,Crit]
-  果敢丨预言者: [Spirit,Stamina,Hit,Crit]
-  果敢丨占卜师: [Spirit,SpellPower,Haste,Crit]
-  果敢丨哲学家: [Spirit,SpellPower,Hit,Crit]
-  果敢丨化身: [Spirit,Haste,Hit,Crit]
-  精确丨神学者: [Intellect,Spirit,Haste,Hit]
-  精确丨神谕者: [Spirit,Stamina,Haste,Hit]
-  精确丨月亮: [Intellect,Spirit,Stamina,Hit]
-  精确丨占卜师: [Spirit,SpellPower,Haste,Hit]
-  专家丨雪豹: [Agility,Hit,Crit,Expertise]
-  谨慎丨雪豹: [Agility,Hit,Crit,DefenseRating]
-  敏锐丨熊怪: [Agility,Haste,DefenseRating,Dodge]
-  敏锐丨雪豹: [Agility,Hit,Crit,Dodge]
-  敏锐丨灵猫: [Agility,Hit,DefenseRating,Dodge]
-  敏锐丨巨熊: [Agility,Crit,DefenseRating,Dodge]
+  魔丨月亮: [Intellect,Spirit,Stamina,SpellPower]
+  暴丨神学者: [Intellect,Spirit,Haste,Crit]
+  暴丨咒术师: [Intellect,Spirit,Hit,Crit]
+  暴丨智者: [Intellect,Stamina,Hit,Crit]
+  暴丨占星师: [Intellect,SpellPower,Hit,Crit]
+  暴丨巫师: [Intellect,Haste,Hit,Crit]
+  暴丨神谕者: [Spirit,Stamina,Haste,Crit]
+  暴丨月亮: [Intellect,Spirit,Stamina,Crit]
+  暴丨预言者: [Spirit,Stamina,Hit,Crit]
+  暴丨占卜师: [Spirit,SpellPower,Haste,Crit]
+  暴丨哲学家: [Spirit,SpellPower,Hit,Crit]
+  暴丨化身: [Spirit,Haste,Hit,Crit]
+  导丨神学者: [Intellect,Spirit,Haste,Hit]
+  导丨神谕者: [Spirit,Stamina,Haste,Hit]
+  导丨月亮: [Intellect,Spirit,Stamina,Hit]
+  导丨占卜师: [Spirit,SpellPower,Haste,Hit]
+  擅丨雪豹: [Agility,Hit,Crit,Expertise]
+  御丨雪豹: [Agility,Hit,Crit,DefenseRating]
+  诡丨熊怪: [Agility,Haste,DefenseRating,Dodge]
+  诡丨雪豹: [Agility,Hit,Crit,Dodge]
+  诡丨灵猫: [Agility,Hit,DefenseRating,Dodge]
+  诡丨巨熊: [Agility,Crit,DefenseRating,Dodge]
   勇气: [Strength,Stamina,AttackPower]
-  精确丨勇气: [Strength,Stamina,AttackPower,Hit]
-  魔化丨勇气: [Strength,Stamina,AttackPower,SpellPower]
-  迅捷丨勇气: [Strength,Stamina,AttackPower,Haste]
-  专家丨勇气: [Strength,Stamina,AttackPower,Expertise]
-  谨慎丨勇气: [Strength,Stamina,AttackPower,DefenseRating]
-  敏锐丨勇气: [Strength,Stamina,AttackPower,Dodge]
-  闪光丨勇气: [Strength,Stamina,AttackPower,Parry]
-  果敢丨勇气: [Strength,Stamina,AttackPower,Crit]
+  导丨勇气: [Strength,Stamina,AttackPower,Hit]
+  魔丨勇气: [Strength,Stamina,AttackPower,SpellPower]
+  速丨勇气: [Strength,Stamina,AttackPower,Haste]
+  擅丨勇气: [Strength,Stamina,AttackPower,Expertise]
+  御丨勇气: [Strength,Stamina,AttackPower,DefenseRating]
+  诡丨勇气: [Strength,Stamina,AttackPower,Dodge]
+  避丨勇气: [Strength,Stamina,AttackPower,Parry]
+  暴丨勇气: [Strength,Stamina,AttackPower,Crit]
   决斗者: [Stamina,AttackPower,Hit]
   候选者: [Stamina,AttackPower,Crit]
   拳师: [Stamina,AttackPower,Expertise]
@@ -535,44 +535,44 @@ suffixes:
   高效: [Stamina,Haste,Hit]
   权宜: [Stamina,Haste,Expertise]
   安全: [Stamina,Haste,DefenseRating]
-  精确丨野性: [Agility,Stamina,AttackPower,Hit]
-  精确丨佣兵: [Strength,Stamina,Haste,Hit]
-  精确丨咒缚者: [Stamina,SpellPower,Haste,Hit]
-  魔化丨野性: [Agility,Stamina,AttackPower,SpellPower]
-  迅捷丨野性: [Agility,Stamina,AttackPower,Haste]
-  专家丨野性: [Agility,Stamina,AttackPower,Expertise]
-  专家丨决斗者: [Stamina,AttackPower,Hit,Expertise]
-  专家丨候选者: [Stamina,AttackPower,Crit,Expertise]
-  专家丨佣兵: [Strength,Stamina,Haste,Expertise]
-  专家丨高效: [Stamina,Haste,Hit,Expertise]
-  谨慎丨野性: [Agility,Stamina,AttackPower,DefenseRating]
-  谨慎丨决斗者: [Stamina,AttackPower,Hit,DefenseRating]
-  谨慎丨候选者: [Stamina,AttackPower,Crit,DefenseRating]
-  谨慎丨拳师: [Stamina,AttackPower,Expertise,DefenseRating]
-  谨慎丨佣兵: [Strength,Stamina,Haste,DefenseRating]
-  谨慎丨高效: [Stamina,Haste,Hit,DefenseRating]
-  谨慎丨权宜: [Stamina,Haste,Expertise,DefenseRating]
-  敏锐丨野性: [Agility,Stamina,AttackPower,Dodge]
-  敏锐丨决斗者: [Stamina,AttackPower,Hit,Dodge]
-  敏锐丨候选者: [Stamina,AttackPower,Crit,Dodge]
-  敏锐丨拳师: [Stamina,AttackPower,Expertise,Dodge]
-  敏锐丨军团: [Stamina,AttackPower,DefenseRating,Dodge]
-  敏锐丨高效: [Stamina,Haste,Hit,Dodge]
-  敏锐丨权宜: [Stamina,Haste,Expertise,Dodge]
-  敏锐丨安全: [Stamina,Haste,DefenseRating,Dodge]
-  果敢丨野性: [Agility,Stamina,AttackPower,Crit]
-  果敢丨决斗者: [Stamina,AttackPower,Hit,Crit]
-  果敢丨咒缚者: [Stamina,SpellPower,Haste,Crit]
-  果敢丨高效: [Stamina,Haste,Hit,Crit]
-  闪光丨决斗者: [Stamina,AttackPower,Hit,Parry]
-  闪光丨候选者: [Stamina,AttackPower,Crit,Parry]
-  闪光丨拳师: [Stamina,AttackPower,Expertise,Parry]
-  闪光丨军团: [Stamina,AttackPower,DefenseRating,Parry]
-  闪光丨抗击者: [Stamina,AttackPower,Dodge,Parry]
-  闪光丨佣兵: [Strength,Stamina,Haste,Parry]
-  闪光丨高效: [Stamina,Haste,Hit,Parry]
-  闪光丨权宜: [Stamina,Haste,Expertise,Parry]
-  闪光丨安全: [Stamina,Haste,DefenseRating,Parry]
+  导丨野性: [Agility,Stamina,AttackPower,Hit]
+  导丨佣兵: [Strength,Stamina,Haste,Hit]
+  导丨咒缚者: [Stamina,SpellPower,Haste,Hit]
+  魔丨野性: [Agility,Stamina,AttackPower,SpellPower]
+  速丨野性: [Agility,Stamina,AttackPower,Haste]
+  擅丨野性: [Agility,Stamina,AttackPower,Expertise]
+  擅丨决斗者: [Stamina,AttackPower,Hit,Expertise]
+  擅丨候选者: [Stamina,AttackPower,Crit,Expertise]
+  擅丨佣兵: [Strength,Stamina,Haste,Expertise]
+  擅丨高效: [Stamina,Haste,Hit,Expertise]
+  御丨野性: [Agility,Stamina,AttackPower,DefenseRating]
+  御丨决斗者: [Stamina,AttackPower,Hit,DefenseRating]
+  御丨候选者: [Stamina,AttackPower,Crit,DefenseRating]
+  御丨拳师: [Stamina,AttackPower,Expertise,DefenseRating]
+  御丨佣兵: [Strength,Stamina,Haste,DefenseRating]
+  御丨高效: [Stamina,Haste,Hit,DefenseRating]
+  御丨权宜: [Stamina,Haste,Expertise,DefenseRating]
+  诡丨野性: [Agility,Stamina,AttackPower,Dodge]
+  诡丨决斗者: [Stamina,AttackPower,Hit,Dodge]
+  诡丨候选者: [Stamina,AttackPower,Crit,Dodge]
+  诡丨拳师: [Stamina,AttackPower,Expertise,Dodge]
+  诡丨军团: [Stamina,AttackPower,DefenseRating,Dodge]
+  诡丨高效: [Stamina,Haste,Hit,Dodge]
+  诡丨权宜: [Stamina,Haste,Expertise,Dodge]
+  诡丨安全: [Stamina,Haste,DefenseRating,Dodge]
+  暴丨野性: [Agility,Stamina,AttackPower,Crit]
+  暴丨决斗者: [Stamina,AttackPower,Hit,Crit]
+  暴丨咒缚者: [Stamina,SpellPower,Haste,Crit]
+  暴丨高效: [Stamina,Haste,Hit,Crit]
+  避丨决斗者: [Stamina,AttackPower,Hit,Parry]
+  避丨候选者: [Stamina,AttackPower,Crit,Parry]
+  避丨拳师: [Stamina,AttackPower,Expertise,Parry]
+  避丨军团: [Stamina,AttackPower,DefenseRating,Parry]
+  避丨抗击者: [Stamina,AttackPower,Dodge,Parry]
+  避丨佣兵: [Strength,Stamina,Haste,Parry]
+  避丨高效: [Stamina,Haste,Hit,Parry]
+  避丨权宜: [Stamina,Haste,Expertise,Parry]
+  避丨安全: [Stamina,Haste,DefenseRating,Parry]
   扰乱: [Stamina,Haste,Dodge]
   破坏: [Stamina,Haste,Parry]
   迅猛: [AttackPower,Haste,Hit]
@@ -637,7 +637,7 @@ suffixes:
   博学: [AttackPower,Expertise,DefenseRating]
   专精: [Stamina,Expertise,Parry]
   灵巧: [AttackPower,Expertise,Dodge]
-  花瓶: [AttackPower,Expertise,Parry]
+  风暴骑士: [AttackPower,Expertise,Parry]
   裁决者: [Expertise,DefenseRating,Dodge]
   指引: [Expertise,DefenseRating,Parry]
   仲裁官: [Expertise,Dodge,Parry]
@@ -649,135 +649,135 @@ suffixes:
   领主: [AttackPower,Dodge,Parry]
   主教: [SpellPower,Hit,Crit]
   不眠: [Hit,Dodge,Parry]
-  魔化丨狩猎: [Agility,Intellect,AttackPower,SpellPower]
-  迅捷丨狩猎: [Agility,Intellect,AttackPower,Haste]
-  迅捷丨预言: [Intellect,Spirit,SpellPower,Haste]
-  果敢丨侍从: [Strength,Stamina,Hit,Crit]
-  果敢丨射手: [Agility,Stamina,Hit,Crit]
-  果敢丨打击: [Stamina,AttackPower,Haste,Crit]
-  果敢丨预见: [Intellect,SpellPower,Haste,Crit]
-  果敢丨通灵: [Stamina,SpellPower,Hit,Crit]
-  果敢丨狩猎: [Agility,Intellect,AttackPower,Crit]
-  果敢丨预言: [Intellect,Spirit,SpellPower,Crit]
-  果敢丨迅猛: [AttackPower,Haste,Hit,Crit]
-  果敢丨急件: [SpellPower,Haste,Hit,Crit]
-  精确丨打击: [Stamina,AttackPower,Haste,Hit]
-  精确丨预见: [Intellect,SpellPower,Haste,Hit]
-  精确丨狩猎: [Agility,Intellect,AttackPower,Hit]
-  精确丨预言: [Intellect,Spirit,SpellPower,Hit]
-  专家丨侍从: [Strength,Stamina,Hit,Expertise]
-  专家丨射手: [Agility,Stamina,Hit,Expertise]
-  专家丨战斗: [Strength,Stamina,Crit,Expertise]
-  专家丨歹徒: [Agility,Stamina,Crit,Expertise]
-  专家丨打击: [Stamina,AttackPower,Haste,Expertise]
-  专家丨野兽: [Stamina,Haste,Crit,Expertise]
-  专家丨狩猎: [Agility,Intellect,AttackPower,Expertise]
-  专家丨迅猛: [AttackPower,Haste,Hit,Expertise]
-  专家丨敏锐: [AttackPower,Haste,Crit,Expertise]
-  专家丨热情: [Haste,Hit,Crit,Expertise]
-  专家丨校正: [Stamina,Hit,Crit,Expertise]
-  专家丨忠实: [AttackPower,Hit,Crit,Expertise]
-  谨慎丨侍从: [Strength,Stamina,Hit,DefenseRating]
-  谨慎丨射手: [Agility,Stamina,Hit,DefenseRating]
-  谨慎丨战斗: [Strength,Stamina,Crit,DefenseRating]
-  谨慎丨歹徒: [Agility,Stamina,Crit,DefenseRating]
-  谨慎丨打击: [Stamina,AttackPower,Haste,DefenseRating]
-  谨慎丨野兽: [Stamina,Haste,Crit,DefenseRating]
-  谨慎丨迅猛: [AttackPower,Haste,Hit,DefenseRating]
-  谨慎丨敏锐: [AttackPower,Haste,Crit,DefenseRating]
-  谨慎丨加速: [AttackPower,Haste,Expertise,DefenseRating]
-  谨慎丨热情: [Haste,Hit,Crit,DefenseRating]
-  谨慎丨混乱: [Haste,Hit,Expertise,DefenseRating]
-  谨慎丨折颈: [Haste,Crit,Expertise,DefenseRating]
-  谨慎丨校正: [Stamina,Hit,Crit,DefenseRating]
-  谨慎丨忠诚: [Stamina,Hit,Expertise,DefenseRating]
-  谨慎丨忠实: [AttackPower,Hit,Crit,DefenseRating]
-  谨慎丨勤勉: [AttackPower,Hit,Expertise,DefenseRating]
-  谨慎丨坚定: [Hit,Crit,Expertise,DefenseRating]
-  谨慎丨狂热者: [Stamina,Crit,Expertise,DefenseRating]
-  谨慎丨暗淡: [AttackPower,Crit,Expertise,DefenseRating]
-  敏锐丨侍从: [Strength,Stamina,Hit,Dodge]
-  敏锐丨射手: [Agility,Stamina,Hit,Dodge]
-  敏锐丨战斗: [Strength,Stamina,Crit,Dodge]
-  敏锐丨歹徒: [Agility,Stamina,Crit,Dodge]
-  敏锐丨打击: [Stamina,AttackPower,Haste,Dodge]
-  敏锐丨野兽: [Stamina,Haste,Crit,Dodge]
-  敏锐丨迅猛: [AttackPower,Haste,Hit,Dodge]
-  敏锐丨敏锐: [AttackPower,Haste,Crit,Dodge]
-  敏锐丨加速: [AttackPower,Haste,Expertise,Dodge]
-  敏锐丨灵敏: [AttackPower,Haste,DefenseRating,Dodge]
-  敏锐丨热情: [Haste,Hit,Crit,Dodge]
-  敏锐丨混乱: [Haste,Hit,Expertise,Dodge]
-  敏锐丨活力: [Haste,Hit,DefenseRating,Dodge]
-  敏锐丨折颈: [Haste,Crit,Expertise,Dodge]
-  敏锐丨流星: [Haste,Crit,DefenseRating,Dodge]
-  敏锐丨速度: [Haste,Expertise,DefenseRating,Dodge]
-  敏锐丨校正: [Stamina,Hit,Crit,Dodge]
-  敏锐丨忠诚: [Stamina,Hit,Expertise,Dodge]
-  敏锐丨真理: [Stamina,Hit,DefenseRating,Dodge]
-  敏锐丨忠实: [AttackPower,Hit,Crit,Dodge]
-  敏锐丨勤勉: [AttackPower,Hit,Expertise,Dodge]
-  敏锐丨细致: [AttackPower,Hit,DefenseRating,Dodge]
-  敏锐丨坚定: [Hit,Crit,Expertise,Dodge]
-  敏锐丨缜密: [Hit,Crit,DefenseRating,Dodge]
-  敏锐丨欺诈: [Hit,Expertise,DefenseRating,Dodge]
-  敏锐丨狂热者: [Stamina,Crit,Expertise,Dodge]
-  敏锐丨激情: [Stamina,Crit,DefenseRating,Dodge]
-  敏锐丨暗淡: [AttackPower,Crit,Expertise,Dodge]
-  敏锐丨钥: [AttackPower,Crit,DefenseRating,Dodge]
-  敏锐丨卓越: [Crit,Expertise,DefenseRating,Dodge]
-  敏锐丨机巧: [Stamina,Expertise,DefenseRating,Dodge]
-  敏锐丨博学: [AttackPower,Expertise,DefenseRating,Dodge]
-  闪光丨侍从: [Strength,Stamina,Hit,Parry]
-  闪光丨战斗: [Strength,Stamina,Crit,Parry]
-  闪光丨打击: [Stamina,AttackPower,Haste,Parry]
-  闪光丨野兽: [Stamina,Haste,Crit,Parry]
-  闪光丨扰乱: [Stamina,Haste,Dodge,Parry]
-  闪光丨迅猛: [AttackPower,Haste,Hit,Parry]
-  闪光丨敏锐: [AttackPower,Haste,Crit,Parry]
-  闪光丨加速: [AttackPower,Haste,Expertise,Parry]
-  闪光丨灵敏: [AttackPower,Haste,DefenseRating,Parry]
-  闪光丨急促: [AttackPower,Haste,Dodge,Parry]
-  闪光丨热情: [Haste,Hit,Crit,Parry]
-  闪光丨混乱: [Haste,Hit,Expertise,Parry]
-  闪光丨活力: [Haste,Hit,DefenseRating,Parry]
-  闪光丨狂乱: [Haste,Hit,Dodge,Parry]
-  闪光丨折颈: [Haste,Crit,Expertise,Parry]
-  闪光丨流星: [Haste,Crit,DefenseRating,Parry]
-  闪光丨迅速: [Haste,Crit,Dodge,Parry]
-  闪光丨速度: [Haste,Expertise,DefenseRating,Parry]
-  闪光丨土灵: [Haste,Expertise,Dodge,Parry]
-  闪光丨就绪: [Haste,DefenseRating,Dodge,Parry]
-  闪光丨校正: [Stamina,Hit,Crit,Parry]
-  闪光丨忠诚: [Stamina,Hit,Expertise,Parry]
-  闪光丨真理: [Stamina,Hit,DefenseRating,Parry]
-  闪光丨永恒: [Stamina,Hit,Dodge,Parry]
-  闪光丨忠实: [AttackPower,Hit,Crit,Parry]
-  闪光丨勤勉: [AttackPower,Hit,Expertise,Parry]
-  闪光丨细致: [AttackPower,Hit,DefenseRating,Parry]
-  闪光丨苛求: [AttackPower,Hit,Dodge,Parry]
-  闪光丨坚定: [Hit,Crit,Expertise,Parry]
-  闪光丨缜密: [Hit,Crit,DefenseRating,Parry]
-  闪光丨恣意: [Hit,Crit,Dodge,Parry]
-  闪光丨欺诈: [Hit,Expertise,DefenseRating,Parry]
-  闪光丨贤者: [Hit,Expertise,Dodge,Parry]
-  闪光丨凝视: [Hit,DefenseRating,Dodge,Parry]
-  闪光丨狂热者: [Stamina,Crit,Expertise,Parry]
-  闪光丨激情: [Stamina,Crit,DefenseRating,Parry]
-  闪光丨焦虑: [Stamina,Crit,Dodge,Parry]
-  闪光丨暗淡: [AttackPower,Crit,Expertise,Parry]
-  闪光丨钥: [AttackPower,Crit,DefenseRating,Parry]
-  闪光丨敕令: [AttackPower,Crit,Dodge,Parry]
-  闪光丨卓越: [Crit,Expertise,DefenseRating,Parry]
-  闪光丨杰出: [Crit,Expertise,Dodge,Parry]
-  闪光丨威慑: [Crit,DefenseRating,Dodge,Parry]
-  闪光丨机巧: [Stamina,Expertise,DefenseRating,Parry]
-  闪光丨精通: [Stamina,Expertise,Dodge,Parry]
-  闪光丨博学: [AttackPower,Expertise,DefenseRating,Parry]
-  闪光丨灵巧: [AttackPower,Expertise,Dodge,Parry]
-  闪光丨裁决者: [Expertise,DefenseRating,Dodge,Parry]
-  闪光丨统御: [Stamina,DefenseRating,Dodge,Parry]
-  闪光丨星: [AttackPower,DefenseRating,Dodge,Parry]
+  魔丨狩猎: [Agility,Intellect,AttackPower,SpellPower]
+  速丨狩猎: [Agility,Intellect,AttackPower,Haste]
+  速丨预言: [Intellect,Spirit,SpellPower,Haste]
+  暴丨侍从: [Strength,Stamina,Hit,Crit]
+  暴丨射手: [Agility,Stamina,Hit,Crit]
+  暴丨打击: [Stamina,AttackPower,Haste,Crit]
+  暴丨预见: [Intellect,SpellPower,Haste,Crit]
+  暴丨通灵: [Stamina,SpellPower,Hit,Crit]
+  暴丨狩猎: [Agility,Intellect,AttackPower,Crit]
+  暴丨预言: [Intellect,Spirit,SpellPower,Crit]
+  暴丨迅猛: [AttackPower,Haste,Hit,Crit]
+  暴丨急件: [SpellPower,Haste,Hit,Crit]
+  导丨打击: [Stamina,AttackPower,Haste,Hit]
+  导丨预见: [Intellect,SpellPower,Haste,Hit]
+  导丨狩猎: [Agility,Intellect,AttackPower,Hit]
+  导丨预言: [Intellect,Spirit,SpellPower,Hit]
+  擅丨侍从: [Strength,Stamina,Hit,Expertise]
+  擅丨射手: [Agility,Stamina,Hit,Expertise]
+  擅丨战斗: [Strength,Stamina,Crit,Expertise]
+  擅丨歹徒: [Agility,Stamina,Crit,Expertise]
+  擅丨打击: [Stamina,AttackPower,Haste,Expertise]
+  擅丨野兽: [Stamina,Haste,Crit,Expertise]
+  擅丨狩猎: [Agility,Intellect,AttackPower,Expertise]
+  擅丨迅猛: [AttackPower,Haste,Hit,Expertise]
+  擅丨敏锐: [AttackPower,Haste,Crit,Expertise]
+  擅丨热情: [Haste,Hit,Crit,Expertise]
+  擅丨校正: [Stamina,Hit,Crit,Expertise]
+  擅丨忠实: [AttackPower,Hit,Crit,Expertise]
+  御丨侍从: [Strength,Stamina,Hit,DefenseRating]
+  御丨射手: [Agility,Stamina,Hit,DefenseRating]
+  御丨战斗: [Strength,Stamina,Crit,DefenseRating]
+  御丨歹徒: [Agility,Stamina,Crit,DefenseRating]
+  御丨打击: [Stamina,AttackPower,Haste,DefenseRating]
+  御丨野兽: [Stamina,Haste,Crit,DefenseRating]
+  御丨迅猛: [AttackPower,Haste,Hit,DefenseRating]
+  御丨敏锐: [AttackPower,Haste,Crit,DefenseRating]
+  御丨加速: [AttackPower,Haste,Expertise,DefenseRating]
+  御丨热情: [Haste,Hit,Crit,DefenseRating]
+  御丨混乱: [Haste,Hit,Expertise,DefenseRating]
+  御丨折颈: [Haste,Crit,Expertise,DefenseRating]
+  御丨校正: [Stamina,Hit,Crit,DefenseRating]
+  御丨忠诚: [Stamina,Hit,Expertise,DefenseRating]
+  御丨忠实: [AttackPower,Hit,Crit,DefenseRating]
+  御丨勤勉: [AttackPower,Hit,Expertise,DefenseRating]
+  御丨坚定: [Hit,Crit,Expertise,DefenseRating]
+  御丨狂热者: [Stamina,Crit,Expertise,DefenseRating]
+  御丨暗淡: [AttackPower,Crit,Expertise,DefenseRating]
+  诡丨侍从: [Strength,Stamina,Hit,Dodge]
+  诡丨射手: [Agility,Stamina,Hit,Dodge]
+  诡丨战斗: [Strength,Stamina,Crit,Dodge]
+  诡丨歹徒: [Agility,Stamina,Crit,Dodge]
+  诡丨打击: [Stamina,AttackPower,Haste,Dodge]
+  诡丨野兽: [Stamina,Haste,Crit,Dodge]
+  诡丨迅猛: [AttackPower,Haste,Hit,Dodge]
+  诡丨敏锐: [AttackPower,Haste,Crit,Dodge]
+  诡丨加速: [AttackPower,Haste,Expertise,Dodge]
+  诡丨灵敏: [AttackPower,Haste,DefenseRating,Dodge]
+  诡丨热情: [Haste,Hit,Crit,Dodge]
+  诡丨混乱: [Haste,Hit,Expertise,Dodge]
+  诡丨活力: [Haste,Hit,DefenseRating,Dodge]
+  诡丨折颈: [Haste,Crit,Expertise,Dodge]
+  诡丨流星: [Haste,Crit,DefenseRating,Dodge]
+  诡丨速度: [Haste,Expertise,DefenseRating,Dodge]
+  诡丨校正: [Stamina,Hit,Crit,Dodge]
+  诡丨忠诚: [Stamina,Hit,Expertise,Dodge]
+  诡丨真理: [Stamina,Hit,DefenseRating,Dodge]
+  诡丨忠实: [AttackPower,Hit,Crit,Dodge]
+  诡丨勤勉: [AttackPower,Hit,Expertise,Dodge]
+  诡丨细致: [AttackPower,Hit,DefenseRating,Dodge]
+  诡丨坚定: [Hit,Crit,Expertise,Dodge]
+  诡丨缜密: [Hit,Crit,DefenseRating,Dodge]
+  诡丨欺诈: [Hit,Expertise,DefenseRating,Dodge]
+  诡丨狂热者: [Stamina,Crit,Expertise,Dodge]
+  诡丨激情: [Stamina,Crit,DefenseRating,Dodge]
+  诡丨暗淡: [AttackPower,Crit,Expertise,Dodge]
+  诡丨钥: [AttackPower,Crit,DefenseRating,Dodge]
+  诡丨卓越: [Crit,Expertise,DefenseRating,Dodge]
+  诡丨机巧: [Stamina,Expertise,DefenseRating,Dodge]
+  诡丨博学: [AttackPower,Expertise,DefenseRating,Dodge]
+  避丨侍从: [Strength,Stamina,Hit,Parry]
+  避丨战斗: [Strength,Stamina,Crit,Parry]
+  避丨打击: [Stamina,AttackPower,Haste,Parry]
+  避丨野兽: [Stamina,Haste,Crit,Parry]
+  避丨扰乱: [Stamina,Haste,Dodge,Parry]
+  避丨迅猛: [AttackPower,Haste,Hit,Parry]
+  避丨敏锐: [AttackPower,Haste,Crit,Parry]
+  避丨加速: [AttackPower,Haste,Expertise,Parry]
+  避丨灵敏: [AttackPower,Haste,DefenseRating,Parry]
+  避丨急促: [AttackPower,Haste,Dodge,Parry]
+  避丨热情: [Haste,Hit,Crit,Parry]
+  避丨混乱: [Haste,Hit,Expertise,Parry]
+  避丨活力: [Haste,Hit,DefenseRating,Parry]
+  避丨狂乱: [Haste,Hit,Dodge,Parry]
+  避丨折颈: [Haste,Crit,Expertise,Parry]
+  避丨流星: [Haste,Crit,DefenseRating,Parry]
+  避丨迅速: [Haste,Crit,Dodge,Parry]
+  避丨速度: [Haste,Expertise,DefenseRating,Parry]
+  避丨土灵: [Haste,Expertise,Dodge,Parry]
+  避丨就绪: [Haste,DefenseRating,Dodge,Parry]
+  避丨校正: [Stamina,Hit,Crit,Parry]
+  避丨忠诚: [Stamina,Hit,Expertise,Parry]
+  避丨真理: [Stamina,Hit,DefenseRating,Parry]
+  避丨永恒: [Stamina,Hit,Dodge,Parry]
+  避丨忠实: [AttackPower,Hit,Crit,Parry]
+  避丨勤勉: [AttackPower,Hit,Expertise,Parry]
+  避丨细致: [AttackPower,Hit,DefenseRating,Parry]
+  避丨苛求: [AttackPower,Hit,Dodge,Parry]
+  避丨坚定: [Hit,Crit,Expertise,Parry]
+  避丨缜密: [Hit,Crit,DefenseRating,Parry]
+  避丨恣意: [Hit,Crit,Dodge,Parry]
+  避丨欺诈: [Hit,Expertise,DefenseRating,Parry]
+  避丨贤者: [Hit,Expertise,Dodge,Parry]
+  避丨凝视: [Hit,DefenseRating,Dodge,Parry]
+  避丨狂热者: [Stamina,Crit,Expertise,Parry]
+  避丨激情: [Stamina,Crit,DefenseRating,Parry]
+  避丨焦虑: [Stamina,Crit,Dodge,Parry]
+  避丨暗淡: [AttackPower,Crit,Expertise,Parry]
+  避丨钥: [AttackPower,Crit,DefenseRating,Parry]
+  避丨敕令: [AttackPower,Crit,Dodge,Parry]
+  避丨卓越: [Crit,Expertise,DefenseRating,Parry]
+  避丨杰出: [Crit,Expertise,Dodge,Parry]
+  避丨威慑: [Crit,DefenseRating,Dodge,Parry]
+  避丨机巧: [Stamina,Expertise,DefenseRating,Parry]
+  避丨精通: [Stamina,Expertise,Dodge,Parry]
+  避丨博学: [AttackPower,Expertise,DefenseRating,Parry]
+  避丨灵巧: [AttackPower,Expertise,Dodge,Parry]
+  避丨裁决者: [Expertise,DefenseRating,Dodge,Parry]
+  避丨统御: [Stamina,DefenseRating,Dodge,Parry]
+  避丨星: [AttackPower,DefenseRating,Dodge,Parry]
 #  骑士: [Stamina,DefenseRating,SpellPower]
 #  远征: [SpellPower,Intellect,DefenseRating]
 #  树林: [Agility,Strength,Stamina]
@@ -807,165 +807,165 @@ suffixes:
 #  恢复: [Stamina,SpellPower,Spirit]
 
 weaponsuffixes:
-  2:    {name: '冰封 1',                               minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  12:   {name: '冰封 2',                               minlvl: 28, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  524:  {name: '冰封 3',                               minlvl: 38, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1667: {name: '冰封 4',                               minlvl: 48, maxlvl: 57, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1668: {name: '冰封 5',                               minlvl: 58, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2635: {name: '冰封 6',                               minlvl: 66, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3782: {name: '冰封 7',                               minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3783: {name: '冰封 8',                               minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3784: {name: '冰封 9',                               minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  5:    {name: '火舌 1',                              minlvl: 10, maxlvl: 17, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  4:    {name: '火舌 2',                              minlvl: 18, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3:    {name: '火舌 3',                              minlvl: 26, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  523:  {name: '火舌 4',                              minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  1665: {name: '火舌 5',                              minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  1666: {name: '火舌 6',                              minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  2634: {name: '火舌 7',                              minlvl: 64, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3779: {name: '火舌 8',                              minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3780: {name: '火舌 9',                              minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3781: {name: '火舌 10',                             minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  7:    {name: '致命毒药',                              minlvl: 30, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  8:    {name: '致命毒药 II',                           minlvl: 38, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  626:  {name: '致命毒药 III',                          minlvl: 46, maxlvl: 53, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  627:  {name: '致命毒药 IV',                           minlvl: 54, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2630: {name: '致命毒药 V',                            minlvl: 60, maxlvl: 61, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2642: {name: '致命毒药 VI',                           minlvl: 62, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2643: {name: '致命毒药 VII',                          minlvl: 70, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3770: {name: '致命毒药 VIII',                         minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3771: {name: '致命毒药 IX',                           minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  9:    {name: '毒药（15伤害）)',                            minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2:    {name: '冰封 1',                                    minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  12:   {name: '冰封 2',                                    minlvl: 28, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  524:  {name: '冰封 3',                                    minlvl: 38, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1667: {name: '冰封 4',                                    minlvl: 48, maxlvl: 57, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1668: {name: '冰封 5',                                    minlvl: 58, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2635: {name: '冰封 6',                                    minlvl: 66, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3782: {name: '冰封 7',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3783: {name: '冰封 8',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3784: {name: '冰封 9',                                    minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  5:    {name: '火舌 1',                                    minlvl: 10, maxlvl: 17, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  4:    {name: '火舌 2',                                    minlvl: 18, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3:    {name: '火舌 3',                                    minlvl: 26, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  523:  {name: '火舌 4',                                    minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  1665: {name: '火舌 5',                                    minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  1666: {name: '火舌 6',                                    minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  2634: {name: '火舌 7',                                    minlvl: 64, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3779: {name: '火舌 8',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3780: {name: '火舌 9',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3781: {name: '火舌 10',                                   minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  7:    {name: '致命毒药',                                  minlvl: 30, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  8:    {name: '致命毒药 II',                               minlvl: 38, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  626:  {name: '致命毒药 III',                              minlvl: 46, maxlvl: 53, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  627:  {name: '致命毒药 IV',                               minlvl: 54, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2630: {name: '致命毒药 V',                                minlvl: 60, maxlvl: 61, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2642: {name: '致命毒药 VI',                               minlvl: 62, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2643: {name: '致命毒药 VII',                              minlvl: 70, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3770: {name: '致命毒药 VIII',                             minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3771: {name: '致命毒药 IX',                               minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  9:    {name: '毒药（15伤害）)',                           minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   10:   {name: '毒药（20伤害）',                            minlvl: 28, maxlvl: 32, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   11:   {name: '毒药（25伤害）',                            minlvl: 33, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  42:   {name: '毒药（速效20）',                        minlvl: 28, maxlvl: 36, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  323:  {name: '速效毒药',                             minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  324:  {name: '速效毒药 II',                          minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  325:  {name: '速效毒药 III',                         minlvl: 36, maxlvl: 43, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  623:  {name: '速效毒药 IV',                          minlvl: 44, maxlvl: 51, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  624:  {name: '速效毒药 V',                           minlvl: 52, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  625:  {name: '速效毒药 VI',                          minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2641: {name: '速效毒药 VII',                         minlvl: 68, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3768: {name: '速效毒药 VIII',                        minlvl: 73, maxlvl: 78, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3769: {name: '速效毒药 IX',                          minlvl: 79, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  703:  {name: '致伤毒药',                               minlvl: 32, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  704:  {name: '致伤毒药 II',                            minlvl: 40, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  705:  {name: '致伤毒药 III',                           minlvl: 48, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  706:  {name: '致伤毒药 IV',                            minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2644: {name: '致伤毒药 V',                             minlvl: 64, maxlvl: 71, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3772: {name: '致伤毒药 VI',                            minlvl: 72, maxlvl: 77, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3773: {name: '致伤毒药 VII',                           minlvl: 78, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1003: {name: '毒皮毒药',                           minlvl: 38, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2640: {name: '麻醉药膏',                          minlvl: 68, maxlvl: 76, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3774: {name: '麻醉药膏 II',                       minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3102: {name: '毒药',                                     minlvl: 65, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  22:   {name: '减速药膏',                           minlvl: 20, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  35:   {name: '麻痹毒药',                        minlvl: 24, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  25:   {name: '暗影之油',                                 minlvl: 24, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  42:   {name: '毒药（速效20）',                            minlvl: 28, maxlvl: 36, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  323:  {name: '速效毒药',                                  minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  324:  {name: '速效毒药 II',                               minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  325:  {name: '速效毒药 III',                              minlvl: 36, maxlvl: 43, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  623:  {name: '速效毒药 IV',                               minlvl: 44, maxlvl: 51, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  624:  {name: '速效毒药 V',                                minlvl: 52, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  625:  {name: '速效毒药 VI',                               minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2641: {name: '速效毒药 VII',                              minlvl: 68, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3768: {name: '速效毒药 VIII',                             minlvl: 73, maxlvl: 78, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3769: {name: '速效毒药 IX',                               minlvl: 79, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  703:  {name: '致伤毒药',                                  minlvl: 32, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  704:  {name: '致伤毒药 II',                               minlvl: 40, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  705:  {name: '致伤毒药 III',                              minlvl: 48, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  706:  {name: '致伤毒药 IV',                               minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2644: {name: '致伤毒药 V',                                minlvl: 64, maxlvl: 71, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3772: {name: '致伤毒药 VI',                               minlvl: 72, maxlvl: 77, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3773: {name: '致伤毒药 VII',                              minlvl: 78, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1003: {name: '毒皮毒药',                                  minlvl: 38, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2640: {name: '麻醉药膏',                                  minlvl: 68, maxlvl: 76, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3774: {name: '麻醉药膏 II',                               minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3102: {name: '毒药',                                      minlvl: 65, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  22:   {name: '减速药膏',                                  minlvl: 20, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  35:   {name: '麻痹毒药',                                  minlvl: 24, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  25:   {name: '暗影之油',                                  minlvl: 24, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   26:   {name: '冰霜之油',                                  minlvl: 40, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  36:   {name: '附魔：火焰',                       minlvl: 40, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  37:   {name: '钢质武器链',                         minlvl: 1,  maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3223: {name: '精金武器链',                    minlvl: 50, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3731: {name: '泰坦武器链',                      minlvl: 70, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  803:  {name: '烈焰武器',                               minlvl: 6,  maxlvl: 20, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1894: {name: '冰冷武器',                                 minlvl: 1,  maxlvl: 60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1899: {name: '邪恶武器',                              minlvl: 1,  maxlvl: 60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3239: {name: '破冰武器',                          minlvl: 70, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3322: {name: '冰霜符文武器',                         minlvl: 55, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3341: {name: '冰霜符文武器 2',                       minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3342: {name: '冰霜符文武器 3',                       minlvl: 70, maxlvl: 74, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3343: {name: '冰霜符文武器 4',                       minlvl: 75, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3344: {name: '冰霜符文武器 5',                       minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  912:  {name: '屠魔',                               minlvl: 30, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3251: {name: '巨人杀手',                               minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  283:  {name: '风怒 1',                                 minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  284:  {name: '风怒 2',                                 minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  525:  {name: '风怒 3',                                 minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1669: {name: '风怒 4',                                 minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2636: {name: '风怒 5',                                 minlvl: 68, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3785: {name: '风怒 6',                                 minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3786: {name: '风怒 7',                                 minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3787: {name: '风怒 8',                                 minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3609: {name: '次级火焰石',                           minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3610: {name: '火焰石',                                  minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3611: {name: '强效火焰石',                          minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3612: {name: '极效火焰石',                            minlvl: 56, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3597: {name: '特效火焰石',                           minlvl: 66, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3613: {name: '邪能火焰石',                              minlvl: 74, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3614: {name: '完美火焰石',                            minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  1898: {name: '生命偷取',                               minlvl: 1, maxlvl:  60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1900: {name: '十字军',                                   minlvl: 1, maxlvl:  70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2673: {name: '猫鼬',                                   minlvl: 35, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2674: {name: '魔法激荡',                                 minlvl: 35, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  2675: {name: '作战专家',                               minlvl: 35, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3241: {name: '生命护卫',                                   minlvl: 73, maxlvl: 80, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrDPS,MeleeAgiDPS]}
-  3225: {name: '斩杀',                                minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrDPS,MeleeAgiDPS]}
-  3273: {name: '死亡霜冻',                                 minlvl: 60, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3345: {name: '大地生命 1',                              minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3346: {name: '大地生命 2',                              minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3347: {name: '大地生命 3',                              minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3348: {name: '大地生命 4',                              minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3349: {name: '大地生命 5',                              minlvl: 70, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3350: {name: '大地生命 6',                              minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3615: {name: '法术石',                                 minlvl: 36, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3616: {name: '强效法术石',                         minlvl: 48, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3617: {name: '极效法术石',                           minlvl: 60, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3618: {name: '特效法术石',                          minlvl: 66, maxlvl: 71, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3619: {name: '恶魔法术石',                         minlvl: 72, maxlvl: 77, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3620: {name: '完美法术石',                           minlvl: 78, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3789: {name: '狂暴',                                 minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3790: {name: '黑魔法',                                minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3869: {name: '利刃防护',                                 minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank]}
-  3870: {name: '吸血',                             minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeAgiTank]}
-  125:  {name: '+1 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  126:  {name: '+2 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  127:  {name: '+3 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  128:  {name: '+4 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  129:  {name: '+5 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  130:  {name: '+6 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  131:  {name: '+7 剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  132:  {name: '+1 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  133:  {name: '+2 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  134:  {name: '+3 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  135:  {name: '+4 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  136:  {name: '+5 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  137:  {name: '+6 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  138:  {name: '+7 双手剑技能',                  minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  139:  {name: '+1 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  140:  {name: '+2 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  141:  {name: '+3 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  142:  {name: '+4 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  143:  {name: '+5 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  144:  {name: '+6 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  145:  {name: '+7 锤技能',                              minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  146:  {name: '+1 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  147:  {name: '+2 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  148:  {name: '+3 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  149:  {name: '+4 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  150:  {name: '+5 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  151:  {name: '+6 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  152:  {name: '+7 双手锤技能',                   minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  153:  {name: '+1 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  154:  {name: '+2 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  155:  {name: '+3 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  156:  {name: '+4 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  157:  {name: '+5 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  158:  {name: '+6 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  159:  {name: '+7 斧技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  160:  {name: '+1 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  161:  {name: '+2 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  162:  {name: '+3 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  163:  {name: '+4 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  164:  {name: '+5 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  165:  {name: '+6 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  166:  {name: '+7 双手斧技能',                    minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  167:  {name: '+1 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  168:  {name: '+2 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  169:  {name: '+3 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  170:  {name: '+4 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  171:  {name: '+5 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  172:  {name: '+6 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  173:  {name: '+7 匕首技能',                            minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  36:   {name: '附魔：火焰',                                minlvl: 40, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  37:   {name: '钢质武器链',                                minlvl: 1,  maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3223: {name: '精金武器链',                                minlvl: 50, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3731: {name: '泰坦武器链',                                minlvl: 70, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  803:  {name: '烈焰武器',                                  minlvl: 6,  maxlvl: 20, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1894: {name: '冰冷武器',                                  minlvl: 1,  maxlvl: 60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1899: {name: '邪恶武器',                                  minlvl: 1,  maxlvl: 60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3239: {name: '破冰武器',                                  minlvl: 70, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3322: {name: '冰霜符文武器',                              minlvl: 55, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3341: {name: '冰霜符文武器 2',                            minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3342: {name: '冰霜符文武器 3',                            minlvl: 70, maxlvl: 74, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3343: {name: '冰霜符文武器 4',                            minlvl: 75, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3344: {name: '冰霜符文武器 5',                            minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  912:  {name: '屠魔',                                      minlvl: 30, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3251: {name: '巨人杀手',                                  minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  283:  {name: '风怒 1',                                    minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  284:  {name: '风怒 2',                                    minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  525:  {name: '风怒 3',                                    minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1669: {name: '风怒 4',                                    minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2636: {name: '风怒 5',                                    minlvl: 68, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3785: {name: '风怒 6',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3786: {name: '风怒 7',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3787: {name: '风怒 8',                                    minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3609: {name: '次级火焰石',                                minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3610: {name: '火焰石',                                    minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3611: {name: '强效火焰石',                                minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3612: {name: '极效火焰石',                                minlvl: 56, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3597: {name: '特效火焰石',                                minlvl: 66, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3613: {name: '邪能火焰石',                                minlvl: 74, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3614: {name: '完美火焰石',                                minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  1898: {name: '生命偷取',                                  minlvl: 1, maxlvl:  60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1900: {name: '十字军',                                    minlvl: 1, maxlvl:  70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2673: {name: '猫鼬',                                      minlvl: 35, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2674: {name: '魔法激荡',                                  minlvl: 35, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  2675: {name: '作战专家',                                  minlvl: 35, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3241: {name: '生命护卫',                                  minlvl: 73, maxlvl: 80, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrDPS,MeleeAgiDPS]}
+  3225: {name: '斩杀',                                      minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrDPS,MeleeAgiDPS]}
+  3273: {name: '死亡霜冻',                                  minlvl: 60, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3345: {name: '大地生命 1',                                minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3346: {name: '大地生命 2',                                minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3347: {name: '大地生命 3',                                minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3348: {name: '大地生命 4',                                minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3349: {name: '大地生命 5',                                minlvl: 70, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3350: {name: '大地生命 6',                                minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3615: {name: '法术石',                                    minlvl: 36, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3616: {name: '强效法术石',                                minlvl: 48, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3617: {name: '极效法术石',                                minlvl: 60, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3618: {name: '特效法术石',                                minlvl: 66, maxlvl: 71, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3619: {name: '恶魔法术石',                                minlvl: 72, maxlvl: 77, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3620: {name: '完美法术石',                                minlvl: 78, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3789: {name: '狂暴',                                      minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3790: {name: '黑魔法',                                    minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3869: {name: '利刃防护',                                  minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank]}
+  3870: {name: '吸血',                                      minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeAgiTank]}
+  125:  {name: '+1 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  126:  {name: '+2 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  127:  {name: '+3 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  128:  {name: '+4 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  129:  {name: '+5 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  130:  {name: '+6 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  131:  {name: '+7 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  132:  {name: '+1 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  133:  {name: '+2 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  134:  {name: '+3 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  135:  {name: '+4 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  136:  {name: '+5 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  137:  {name: '+6 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  138:  {name: '+7 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  139:  {name: '+1 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  140:  {name: '+2 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  141:  {name: '+3 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  142:  {name: '+4 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  143:  {name: '+5 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  144:  {name: '+6 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  145:  {name: '+7 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  146:  {name: '+1 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  147:  {name: '+2 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  148:  {name: '+3 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  149:  {name: '+4 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  150:  {name: '+5 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  151:  {name: '+6 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  152:  {name: '+7 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  153:  {name: '+1 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  154:  {name: '+2 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  155:  {name: '+3 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  156:  {name: '+4 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  157:  {name: '+5 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  158:  {name: '+6 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  159:  {name: '+7 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  160:  {name: '+1 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  161:  {name: '+2 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  162:  {name: '+3 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  163:  {name: '+4 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  164:  {name: '+5 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  165:  {name: '+6 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  166:  {name: '+7 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  167:  {name: '+1 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  168:  {name: '+2 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  169:  {name: '+3 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  170:  {name: '+4 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  171:  {name: '+5 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  172:  {name: '+6 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  173:  {name: '+7 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   174:  {name: '+1 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   175:  {name: '+2 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   176:  {name: '+3 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
@@ -973,43 +973,43 @@ weaponsuffixes:
   178:  {name: '+5 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   179:  {name: '+6 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   180:  {name: '+7 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  181:  {name: '+1 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  182:  {name: '+2 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  183:  {name: '+3 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  184:  {name: '+4 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  185:  {name: '+5 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  186:  {name: '+6 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  187:  {name: '+7 弓技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  286:  {name: '+2 武器火焰伤害',                      minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  287:  {name: '+4 武器火焰伤害',                      minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  288:  {name: '+6 武器火焰伤害',                      minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  289:  {name: '+8 武器火焰伤害',                      minlvl: 20, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  290:  {name: '+10 武器火焰伤害',                     minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  291:  {name: '+12 武器火焰伤害',                     minlvl: 40, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  292:  {name: '+14 武器火焰伤害',                     minlvl: 50, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  67:   {name: '+1 伤害',                                  minlvl: 1,  maxlvl: 6,  itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  77:   {name: '+2 伤害',                                  minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  78:   {name: '+3 伤害',                                  minlvl: 5,  maxlvl: 13, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  117:  {name: '+4 伤害',                                  minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  118:  {name: '+5 伤害',                                  minlvl: 9,  maxlvl: 18, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  119:  {name: '+6 伤害',                                  minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  120:  {name: '+7 伤害',                                  minlvl: 20, maxlvl: 33, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1895: {name: '+9 武器伤害',                           minlvl: 29, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3237: {name: '+10 武器伤害',                          minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  40:   {name: '磨快 (+2 伤害)',                      minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  13:   {name: '磨快 (+3 伤害)',                      minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  14:   {name: '磨快 (+4 伤害)',                      minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  483:  {name: '磨快 (+6 伤害)',                      minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1643: {name: '磨快 (+8 伤害)',                      minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2712: {name: '磨快 (+12 伤害)',                     minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2713: {name: '磨快 (+14 爆击等级，+12 伤害)', minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  19:   {name: '增重 (+2 伤害)',                       minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  20:   {name: '增重 (+3 伤害)',                       minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  21:   {name: '增重 (+4 伤害)',                       minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  484:  {name: '增重 (+6 伤害)',                       minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1703: {name: '增重 (+8 伤害)',                       minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2954: {name: '增重 (+12 伤害)',                      minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2955: {name: '增重 (+14 Crit Rating and +12 伤害)',  minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  181:  {name: '+1 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  182:  {name: '+2 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  183:  {name: '+3 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  184:  {name: '+4 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  185:  {name: '+5 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  186:  {name: '+6 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  187:  {name: '+7 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  286:  {name: '+2 武器火焰伤害',                           minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  287:  {name: '+4 武器火焰伤害',                           minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  288:  {name: '+6 武器火焰伤害',                           minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  289:  {name: '+8 武器火焰伤害',                           minlvl: 20, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  290:  {name: '+10 武器火焰伤害',                          minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  291:  {name: '+12 武器火焰伤害',                          minlvl: 40, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  292:  {name: '+14 武器火焰伤害',                          minlvl: 50, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  67:   {name: '+1 伤害',                                   minlvl: 1,  maxlvl: 6,  itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  77:   {name: '+2 伤害',                                   minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  78:   {name: '+3 伤害',                                   minlvl: 5,  maxlvl: 13, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  117:  {name: '+4 伤害',                                   minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  118:  {name: '+5 伤害',                                   minlvl: 9,  maxlvl: 18, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  119:  {name: '+6 伤害',                                   minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  120:  {name: '+7 伤害',                                   minlvl: 20, maxlvl: 33, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1895: {name: '+9 武器伤害',                               minlvl: 29, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3237: {name: '+10 武器伤害',                              minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  40:   {name: '磨快 (+2 伤害)',                            minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  13:   {name: '磨快 (+3 伤害)',                            minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  14:   {name: '磨快 (+4 伤害)',                            minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  483:  {name: '磨快 (+6 伤害)',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1643: {name: '磨快 (+8 伤害)',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2712: {name: '磨快 (+12 伤害)',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2713: {name: '磨快 (+14 爆击等级，+12 伤害)',             minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  19:   {name: '增重 (+2 伤害)',                            minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  20:   {name: '增重 (+3 伤害)',                            minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  21:   {name: '增重 (+4 伤害)',                            minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  484:  {name: '增重 (+6 伤害)',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1703: {name: '增重 (+8 伤害)',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2954: {name: '增重 (+12 伤害)',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2955: {name: '增重 (+14 Crit Rating and +12 伤害)',       minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   30:   {name: '瞄准镜 (+1 伤害)',                          minlvl: 5,  maxlvl: 12, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   32:   {name: '瞄准镜 (+2 伤害)',                          minlvl: 10, maxlvl: 22, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   33:   {name: '瞄准镜 (+3 伤害)',                          minlvl: 20, maxlvl: 36, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
@@ -1018,7 +1018,7 @@ weaponsuffixes:
   2722: {name: '瞄准镜 (+10 伤害)',                         minlvl: 55, maxlvl: 70, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   2723: {name: '瞄准镜 (+12 伤害)',                         minlvl: 55, maxlvl: 70, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   3843: {name: '瞄准镜 (+15 伤害)',                         minlvl: 70, maxlvl: 80, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  2724: {name: '瞄准镜 (+28 暴击等级)',         minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  2724: {name: '瞄准镜 (+28 暴击等级)',                     minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
 
 # # OUT - these weapon enchants arent included
 # ## Shaman only - 石化 will not have effect
@@ -1033,19 +1033,19 @@ weaponsuffixes:
 # (3020, '石化 9',                                              70, 75, 96,     @ITEMCLASS-WEAPON, NULL),
 # (504,  '+80 石化',                                            76, 83, 96,     @ITEMCLASS-WEAPON, NULL),
 # ## DK Only
-# (3365, 'Rune of Swordshattering',                                  55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3366, 'Rune of Lichbane',                                         55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3367, 'Rune of Spellshattering',                                  55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3368, 'Rune of the Fallen Crusader',                              55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3369, 'Rune of Cinderglacier',                                    55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3370, 'Rune of Razorice',                                         55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3594, 'Rune of Swordbreaking',                                    55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3595, 'Rune of Spellbreaking',                                    55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3847, 'Rune of the Stoneskin Gargoyle',                           55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
-# (3883, 'Rune of the Nerubian Carapace',                            55, 83, NULL,   @ITEMCLASS-WEAPON, NULL);
+# (3365, '裂刃符文',                                            55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3366, '巫妖斩除符文',                                        55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3367, '法术碎裂符文',                                        55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3368, '堕落十字军符文',                                      55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3369, '灰烬冰河符文',                                        55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3370, '冰锋符文',                                            55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3594, '破刃符文',                                            55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3595, '法术阻断符文',                                        55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3847, '石肤石像鬼符文',                                      55, 83, NULL,   @ITEMCLASS-WEAPON, NULL),
+# (3883, '蛛魔硬甲符文',                                        55, 83, NULL,   @ITEMCLASS-WEAPON, NULL);
 # # Dont include fishing lures
-# (263,  'Fishing Lure (+25 Fishing Skill)',                         1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
-# (264,  'Fishing Lure (+50 Fishing Skill)',                         1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
-# (265,  'Fishing Lure (+75 Fishing Skill)',                         1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
-# (266,  'Fishing Lure (+100 Fishing Skill)',                        1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
-# (3868, 'Fishing Lure (+100 Fishing Skill)',                        1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
+# (263,  '鱼饵（+25 钓鱼技能）',                                1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
+# (264,  '鱼饵（+50 钓鱼技能）',                                1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
+# (265,  '鱼饵（+75 钓鱼技能）',                                1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
+# (266,  '鱼饵（+100 钓鱼技能）',                               1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),
+# (3868, '鱼饵（+100 钓鱼技能）',                               1,  83, NULL,   @ITEMCLASS-WEAPON, 1048576),

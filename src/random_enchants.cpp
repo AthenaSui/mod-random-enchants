@@ -1,5 +1,27 @@
 #include "random_enchants.h"
 
+//#define HIDDEN_ITEM_ID 1 // used for hidden transmog - do not use a valid equipment ID
+std::string const GetItemLink(uint32 entry, WorldSession* session)
+{
+/*
+    if (entry == HIDDEN_ITEM_ID) {
+        std::ostringstream out;
+        out << "(Hidden)";
+        return out.str();
+    } */
+    const ItemTemplate* temp = sObjectMgr->GetItemTemplate(entry);
+    int loc_idx = session->GetSessionDbLocaleIndex();
+    std::string name = temp->Name1;
+    if (ItemLocale const* il = sObjectMgr->GetItemLocale(entry))
+        ObjectMgr::GetLocaleString(il->Name, loc_idx, name);
+
+    std::ostringstream out;
+    out << "|c" << std::hex << ItemQualityColors[temp->Quality] << std::dec <<
+        "|Hitem:" << entry << ":0:0:0:0:0:0:0:0:0|h[" << name << "]|h|r";
+
+    return out.str();
+}
+
 void rollPossibleEnchant(Player* player, Item* item)
 {
     // Check global enable option
@@ -47,20 +69,20 @@ void rollPossibleEnchant(Player* player, Item* item)
     }
 
     ChatHandler chathandle = ChatHandler(player->GetSession());
-
+ /*
     uint8 loc_idx = player->GetSession()->GetSessionDbLocaleIndex();
     const ItemTemplate* temp = item->GetTemplate();
     std::string name = temp->Name1;
     if (ItemLocale const* il = sObjectMgr->GetItemLocale(temp->ItemId))
         ObjectMgr::GetLocaleString(il->Name, loc_idx, name);
+*/
 
-
-    if (slotRand[2] != -1)
-        chathandle.PSendSysMessage("Newly Acquired |cffFF0000 %s |rhas received|cffFF0000 3 |rrandom enchantments!", name);
-    else if (slotRand[1] != -1)
-        chathandle.PSendSysMessage("Newly Acquired |cffFF0000 %s |rhas received|cffFF0000 2 |rrandom enchantments!", name);
-    else if (slotRand[0] != -1)
-        chathandle.PSendSysMessage("Newly Acquired |cffFF0000 %s |rhas received|cffFF0000 1 |rrandom enchantment!", name);
+        if (slotRand[2] != -1)
+            chathandle.PSendSysMessage("%s获得|cffFF0000 3|r条随机附魔！", GetItemLink(item->GetEntry(), player->GetSession()));
+        else if (slotRand[1] != -1)
+            chathandle.PSendSysMessage("%s获得|cffFF0000 2|r条随机附魔！", GetItemLink(item->GetEntry(), player->GetSession()));
+        else if (slotRand[0] != -1)
+            chathandle.PSendSysMessage("%s获得|cffFF0000 1|r条随机附魔！", GetItemLink(item->GetEntry(), player->GetSession()));
 }
 
 uint32 getRandEnchantment(Item* item)

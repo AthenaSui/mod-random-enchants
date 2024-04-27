@@ -24,7 +24,7 @@ bool default_on_vendor_purchase = true;
 bool default_on_all_items_created = true;
 bool default_use_new_random_enchant_system = true;
 bool default_roll_player_class_preference = false;
-std::string default_login_message ="服务器已启用|cff4CFF00随机附魔|r模块。";
+std::string default_login_message ="This server is running a RandomEnchants Module.";
 
 // CONFIGURATION
 

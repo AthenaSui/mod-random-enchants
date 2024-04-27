@@ -37,7 +37,7 @@ type customRandomSuffixEntry struct {
 }
 
 func (e customRandomSuffixEntry) displayName() string {
-	return fmt.Sprintf("[%s]", e.Name)
+	return fmt.Sprintf("<%s>·", e.Name)
 }
 
 func (e customRandomSuffixEntry) internalName() string {

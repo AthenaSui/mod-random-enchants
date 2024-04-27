@@ -1009,7 +1009,7 @@ weaponsuffixes:
   484:  {name: '增重 (+6 伤害)',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   1703: {name: '增重 (+8 伤害)',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   2954: {name: '增重 (+12 伤害)',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2955: {name: '增重 (+14 Crit Rating and +12 伤害)',       minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2955: {name: '增重 (+14 爆击等级，+12 伤害)',             minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   30:   {name: '瞄准镜 (+1 伤害)',                          minlvl: 5,  maxlvl: 12, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   32:   {name: '瞄准镜 (+2 伤害)',                          minlvl: 10, maxlvl: 22, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
   33:   {name: '瞄准镜 (+3 伤害)',                          minlvl: 20, maxlvl: 36, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}

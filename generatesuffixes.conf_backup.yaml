@@ -807,63 +807,63 @@ suffixes:
 #  恢复: [Stamina,SpellPower,Spirit]
 
 weaponsuffixes:
-  2:    {name: '冰封',                                    minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  12:   {name: '冰封',                                    minlvl: 28, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  524:  {name: '冰封',                                    minlvl: 38, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1667: {name: '冰封',                                    minlvl: 48, maxlvl: 57, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1668: {name: '冰封',                                    minlvl: 58, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2635: {name: '冰封',                                    minlvl: 66, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3782: {name: '冰封',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3783: {name: '冰封',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3784: {name: '冰封',                                    minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  5:    {name: '火舌',                                    minlvl: 10, maxlvl: 17, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  4:    {name: '火舌',                                    minlvl: 18, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3:    {name: '火舌',                                    minlvl: 26, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  523:  {name: '火舌',                                    minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  1665: {name: '火舌',                                    minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  1666: {name: '火舌',                                    minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  2634: {name: '火舌',                                    minlvl: 64, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3779: {name: '火舌',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3780: {name: '火舌',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3781: {name: '火舌',                                   minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  2:    {name: '冰封 1',                                    minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  12:   {name: '冰封 2',                                    minlvl: 28, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  524:  {name: '冰封 3',                                    minlvl: 38, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1667: {name: '冰封 4',                                    minlvl: 48, maxlvl: 57, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1668: {name: '冰封 5',                                    minlvl: 58, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2635: {name: '冰封 6',                                    minlvl: 66, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3782: {name: '冰封 7',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3783: {name: '冰封 8',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3784: {name: '冰封 9',                                    minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  5:    {name: '火舌 1',                                    minlvl: 10, maxlvl: 17, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  4:    {name: '火舌 2',                                    minlvl: 18, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3:    {name: '火舌 3',                                    minlvl: 26, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  523:  {name: '火舌 4',                                    minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  1665: {name: '火舌 5',                                    minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  1666: {name: '火舌 6',                                    minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  2634: {name: '火舌 7',                                    minlvl: 64, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3779: {name: '火舌 8',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3780: {name: '火舌 9',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
+  3781: {name: '火舌 10',                                   minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
   7:    {name: '致命毒药',                                  minlvl: 30, maxlvl: 37, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  8:    {name: '致命毒药',                               minlvl: 38, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  626:  {name: '致命毒药',                              minlvl: 46, maxlvl: 53, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  627:  {name: '致命毒药',                               minlvl: 54, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2630: {name: '致命毒药',                                minlvl: 60, maxlvl: 61, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2642: {name: '致命毒药',                               minlvl: 62, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2643: {name: '致命毒药',                              minlvl: 70, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3770: {name: '致命毒药',                             minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3771: {name: '致命毒药',                               minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  9:    {name: '毒药',                            minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  10:   {name: '毒药',                            minlvl: 28, maxlvl: 32, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  11:   {name: '毒药',                            minlvl: 33, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  42:   {name: '毒药',                            minlvl: 28, maxlvl: 36, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  8:    {name: '致命毒药 II',                               minlvl: 38, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  626:  {name: '致命毒药 III',                              minlvl: 46, maxlvl: 53, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  627:  {name: '致命毒药 IV',                               minlvl: 54, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2630: {name: '致命毒药 V',                                minlvl: 60, maxlvl: 61, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2642: {name: '致命毒药 VI',                               minlvl: 62, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2643: {name: '致命毒药 VII',                              minlvl: 70, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3770: {name: '致命毒药 VIII',                             minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3771: {name: '致命毒药 IX',                               minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  9:    {name: '毒药（15伤害）)',                           minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  10:   {name: '毒药（20伤害）',                            minlvl: 28, maxlvl: 32, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  11:   {name: '毒药（25伤害）',                            minlvl: 33, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  42:   {name: '毒药（速效20）',                            minlvl: 28, maxlvl: 36, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   323:  {name: '速效毒药',                                  minlvl: 20, maxlvl: 27, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  324:  {name: '速效毒药',                               minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  325:  {name: '速效毒药',                              minlvl: 36, maxlvl: 43, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  623:  {name: '速效毒药',                               minlvl: 44, maxlvl: 51, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  624:  {name: '速效毒药',                                minlvl: 52, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  625:  {name: '速效毒药',                               minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2641: {name: '速效毒药',                              minlvl: 68, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3768: {name: '速效毒药',                             minlvl: 73, maxlvl: 78, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3769: {name: '速效毒药',                               minlvl: 79, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  324:  {name: '速效毒药 II',                               minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  325:  {name: '速效毒药 III',                              minlvl: 36, maxlvl: 43, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  623:  {name: '速效毒药 IV',                               minlvl: 44, maxlvl: 51, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  624:  {name: '速效毒药 V',                                minlvl: 52, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  625:  {name: '速效毒药 VI',                               minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2641: {name: '速效毒药 VII',                              minlvl: 68, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3768: {name: '速效毒药 VIII',                             minlvl: 73, maxlvl: 78, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3769: {name: '速效毒药 IX',                               minlvl: 79, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   703:  {name: '致伤毒药',                                  minlvl: 32, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  704:  {name: '致伤毒药',                               minlvl: 40, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  705:  {name: '致伤毒药',                              minlvl: 48, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  706:  {name: '致伤毒药',                               minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2644: {name: '致伤毒药',                                minlvl: 64, maxlvl: 71, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3772: {name: '致伤毒药',                               minlvl: 72, maxlvl: 77, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3773: {name: '致伤毒药',                              minlvl: 78, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  704:  {name: '致伤毒药 II',                               minlvl: 40, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  705:  {name: '致伤毒药 III',                              minlvl: 48, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  706:  {name: '致伤毒药 IV',                               minlvl: 56, maxlvl: 63, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2644: {name: '致伤毒药 V',                                minlvl: 64, maxlvl: 71, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3772: {name: '致伤毒药 VI',                               minlvl: 72, maxlvl: 77, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3773: {name: '致伤毒药 VII',                              minlvl: 78, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   1003: {name: '毒皮毒药',                                  minlvl: 38, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   2640: {name: '麻醉药膏',                                  minlvl: 68, maxlvl: 76, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3774: {name: '麻醉药膏',                               minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3774: {name: '麻醉药膏 II',                               minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   3102: {name: '毒药',                                      minlvl: 65, maxlvl: 73, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   22:   {name: '减速药膏',                                  minlvl: 20, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   35:   {name: '麻痹毒药',                                  minlvl: 24, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   25:   {name: '暗影之油',                                  minlvl: 24, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   26:   {name: '冰霜之油',                                  minlvl: 40, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  36:   {name: '火焰',                                minlvl: 40, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  36:   {name: '附魔：火焰',                                minlvl: 40, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   37:   {name: '钢质武器链',                                minlvl: 1,  maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   3223: {name: '精金武器链',                                minlvl: 50, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   3731: {name: '泰坦武器链',                                minlvl: 70, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
@@ -871,21 +871,21 @@ weaponsuffixes:
   1894: {name: '冰冷武器',                                  minlvl: 1,  maxlvl: 60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   1899: {name: '邪恶武器',                                  minlvl: 1,  maxlvl: 60, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   3239: {name: '破冰武器',                                  minlvl: 70, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-#  3322: {name: '冰霜符文武器',                              minlvl: 55, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-#  3341: {name: '冰霜符文武器',                            minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-#  3342: {name: '冰霜符文武器',                            minlvl: 70, maxlvl: 74, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-#  3343: {name: '冰霜符文武器',                            minlvl: 75, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-#  3344: {name: '冰霜符文武器',                            minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3322: {name: '冰霜符文武器',                              minlvl: 55, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3341: {name: '冰霜符文武器 2',                            minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3342: {name: '冰霜符文武器 3',                            minlvl: 70, maxlvl: 74, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3343: {name: '冰霜符文武器 4',                            minlvl: 75, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3344: {name: '冰霜符文武器 5',                            minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   912:  {name: '屠魔',                                      minlvl: 30, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   3251: {name: '巨人杀手',                                  minlvl: 77, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  283:  {name: '风怒',                                    minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  284:  {name: '风怒',                                    minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  525:  {name: '风怒',                                    minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1669: {name: '风怒',                                    minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2636: {name: '风怒',                                    minlvl: 68, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3785: {name: '风怒',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3786: {name: '风怒',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3787: {name: '风怒',                                    minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  283:  {name: '风怒 1',                                    minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  284:  {name: '风怒 2',                                    minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  525:  {name: '风怒 3',                                    minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1669: {name: '风怒 4',                                    minlvl: 60, maxlvl: 67, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2636: {name: '风怒 5',                                    minlvl: 68, maxlvl: 70, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3785: {name: '风怒 6',                                    minlvl: 71, maxlvl: 75, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3786: {name: '风怒 7',                                    minlvl: 76, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3787: {name: '风怒 8',                                    minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
   3609: {name: '次级火焰石',                                minlvl: 28, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
   3610: {name: '火焰石',                                    minlvl: 36, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
   3611: {name: '强效火焰石',                                minlvl: 46, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
@@ -901,12 +901,12 @@ weaponsuffixes:
   3241: {name: '生命护卫',                                  minlvl: 73, maxlvl: 80, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrDPS,MeleeAgiDPS]}
   3225: {name: '斩杀',                                      minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrDPS,MeleeAgiDPS]}
   3273: {name: '死亡霜冻',                                  minlvl: 60, maxlvl: 72, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,Caster]}
-  3345: {name: '大地生命',                                minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3346: {name: '大地生命',                                minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3347: {name: '大地生命',                                minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3348: {name: '大地生命',                                minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3349: {name: '大地生命',                                minlvl: 70, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
-  3350: {name: '大地生命',                                minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3345: {name: '大地生命 1',                                minlvl: 30, maxlvl: 39, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3346: {name: '大地生命 2',                                minlvl: 40, maxlvl: 49, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3347: {name: '大地生命 3',                                minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3348: {name: '大地生命 4',                                minlvl: 60, maxlvl: 69, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3349: {name: '大地生命 5',                                minlvl: 70, maxlvl: 79, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
+  3350: {name: '大地生命 6',                                minlvl: 80, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
   3615: {name: '法术石',                                    minlvl: 36, maxlvl: 47, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
   3616: {name: '强效法术石',                                minlvl: 48, maxlvl: 59, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
   3617: {name: '极效法术石',                                minlvl: 60, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
@@ -917,108 +917,108 @@ weaponsuffixes:
   3790: {name: '黑魔法',                                    minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [Caster]}
   3869: {name: '利刃防护',                                  minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank]}
   3870: {name: '吸血',                                      minlvl: 75, maxlvl: 83, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeAgiTank]}
-  125:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  126:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  127:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  128:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  129:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  130:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  131:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  132:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  133:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  134:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  135:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  136:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  137:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  138:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  139:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  140:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  141:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  142:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  143:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  144:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  145:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  146:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  147:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  148:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  149:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  150:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  151:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  152:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  153:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  154:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  155:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  156:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  157:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  158:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  159:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  160:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  161:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  162:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  163:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  164:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  165:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  166:  {name: '专精',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  167:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  168:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  169:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  170:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  171:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  172:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  173:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  174:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  175:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  176:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  177:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  178:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  179:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  180:  {name: '专精',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  181:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  182:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  183:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  184:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  185:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  186:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  187:  {name: '专精',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  286:  {name: '烈焰',                           minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  287:  {name: '烈焰',                           minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  288:  {name: '烈焰',                           minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  289:  {name: '烈焰',                           minlvl: 20, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  290:  {name: '烈焰',                          minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  291:  {name: '烈焰',                          minlvl: 40, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  292:  {name: '烈焰',                          minlvl: 50, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  67:   {name: '攻击',                                   minlvl: 1,  maxlvl: 6,  itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  77:   {name: '攻击',                                   minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  78:   {name: '攻击',                                   minlvl: 5,  maxlvl: 13, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  117:  {name: '攻击',                                   minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  118:  {name: '攻击',                                   minlvl: 9,  maxlvl: 18, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  119:  {name: '攻击',                                   minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  120:  {name: '攻击',                                   minlvl: 20, maxlvl: 33, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1895: {name: '攻击',                                   minlvl: 29, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  3237: {name: '攻击',                                  minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  40:   {name: '磨快',                            minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  13:   {name: '磨快',                            minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  14:   {name: '磨快',                            minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  483:  {name: '磨快',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1643: {name: '磨快',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2712: {name: '磨快',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2713: {name: '磨快',             minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  19:   {name: '增重',                            minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  20:   {name: '增重',                            minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  21:   {name: '增重',                            minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  484:  {name: '增重',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  1703: {name: '增重',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2954: {name: '增重',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  2955: {name: '增重',             minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
-  30:   {name: '瞄准镜',                          minlvl: 5,  maxlvl: 12, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  32:   {name: '瞄准镜',                          minlvl: 10, maxlvl: 22, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  33:   {name: '瞄准镜',                          minlvl: 20, maxlvl: 36, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  663:  {name: '瞄准镜',                          minlvl: 30, maxlvl: 42, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  664:  {name: '瞄准镜',                          minlvl: 40, maxlvl: 58, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  2722: {name: '瞄准镜',                         minlvl: 55, maxlvl: 70, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  2723: {name: '瞄准镜',                         minlvl: 55, maxlvl: 70, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  3843: {name: '瞄准镜',                         minlvl: 70, maxlvl: 80, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
-  2724: {name: '瞄准镜',                     minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  125:  {name: '+1 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  126:  {name: '+2 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  127:  {name: '+3 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  128:  {name: '+4 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  129:  {name: '+5 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  130:  {name: '+6 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  131:  {name: '+7 剑技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  132:  {name: '+1 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  133:  {name: '+2 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  134:  {name: '+3 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  135:  {name: '+4 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  136:  {name: '+5 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  137:  {name: '+6 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  138:  {name: '+7 双手剑技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Sword2], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  139:  {name: '+1 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  140:  {name: '+2 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  141:  {name: '+3 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  142:  {name: '+4 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  143:  {name: '+5 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  144:  {name: '+6 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  145:  {name: '+7 锤技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  146:  {name: '+1 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  147:  {name: '+2 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  148:  {name: '+3 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  149:  {name: '+4 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  150:  {name: '+5 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  151:  {name: '+6 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  152:  {name: '+7 双手锤技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Mace2],  enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  153:  {name: '+1 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  154:  {name: '+2 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  155:  {name: '+3 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  156:  {name: '+4 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  157:  {name: '+5 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  158:  {name: '+6 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  159:  {name: '+7 斧技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  160:  {name: '+1 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  161:  {name: '+2 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  162:  {name: '+3 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  163:  {name: '+4 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  164:  {name: '+5 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  165:  {name: '+6 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  166:  {name: '+7 双手斧技能',                             minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Axe2],   enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  167:  {name: '+1 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  168:  {name: '+2 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  169:  {name: '+3 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  170:  {name: '+4 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  171:  {name: '+5 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  172:  {name: '+6 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  173:  {name: '+7 匕首技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Dagger], enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  174:  {name: '+1 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  175:  {name: '+2 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  176:  {name: '+3 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  177:  {name: '+4 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  178:  {name: '+5 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  179:  {name: '+6 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  180:  {name: '+7 枪械技能',                               minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Gun],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  181:  {name: '+1 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  182:  {name: '+2 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  183:  {name: '+3 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  184:  {name: '+4 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  185:  {name: '+5 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  186:  {name: '+6 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  187:  {name: '+7 弓技能',                                 minlvl: 1,  maxlvl: 85, itemclass: 2, itemsubclasses: [Bow],    enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  286:  {name: '+2 武器火焰伤害',                           minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  287:  {name: '+4 武器火焰伤害',                           minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  288:  {name: '+6 武器火焰伤害',                           minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  289:  {name: '+8 武器火焰伤害',                           minlvl: 20, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  290:  {name: '+10 武器火焰伤害',                          minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  291:  {name: '+12 武器火焰伤害',                          minlvl: 40, maxlvl: 55, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  292:  {name: '+14 武器火焰伤害',                          minlvl: 50, maxlvl: 65, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  67:   {name: '+1 伤害',                                   minlvl: 1,  maxlvl: 6,  itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  77:   {name: '+2 伤害',                                   minlvl: 1,  maxlvl: 12, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  78:   {name: '+3 伤害',                                   minlvl: 5,  maxlvl: 13, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  117:  {name: '+4 伤害',                                   minlvl: 7,  maxlvl: 16, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  118:  {name: '+5 伤害',                                   minlvl: 9,  maxlvl: 18, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  119:  {name: '+6 伤害',                                   minlvl: 10, maxlvl: 25, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  120:  {name: '+7 伤害',                                   minlvl: 20, maxlvl: 33, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1895: {name: '+9 武器伤害',                               minlvl: 29, maxlvl: 35, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  3237: {name: '+10 武器伤害',                              minlvl: 30, maxlvl: 45, itemclass: 2, itemsubclasses: *msc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  40:   {name: '磨快 (+2 伤害)',                            minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  13:   {name: '磨快 (+3 伤害)',                            minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  14:   {name: '磨快 (+4 伤害)',                            minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  483:  {name: '磨快 (+6 伤害)',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1643: {name: '磨快 (+8 伤害)',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2712: {name: '磨快 (+12 伤害)',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2713: {name: '磨快 (+14 爆击等级，+12 伤害)',             minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *ssc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  19:   {name: '增重 (+2 伤害)',                            minlvl: 1,  maxlvl: 4,  itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  20:   {name: '增重 (+3 伤害)',                            minlvl: 5,  maxlvl: 14, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  21:   {name: '增重 (+4 伤害)',                            minlvl: 15, maxlvl: 24, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  484:  {name: '增重 (+6 伤害)',                            minlvl: 25, maxlvl: 34, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  1703: {name: '增重 (+8 伤害)',                            minlvl: 35, maxlvl: 44, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2954: {name: '增重 (+12 伤害)',                           minlvl: 50, maxlvl: 59, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  2955: {name: '增重 (+14 爆击等级，+12 伤害)',             minlvl: 60, maxlvl: 74, itemclass: 2, itemsubclasses: *bsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS]}
+  30:   {name: '瞄准镜 (+1 伤害)',                          minlvl: 5,  maxlvl: 12, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  32:   {name: '瞄准镜 (+2 伤害)',                          minlvl: 10, maxlvl: 22, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  33:   {name: '瞄准镜 (+3 伤害)',                          minlvl: 20, maxlvl: 36, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  663:  {name: '瞄准镜 (+5 伤害)',                          minlvl: 30, maxlvl: 42, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  664:  {name: '瞄准镜 (+7 伤害)',                          minlvl: 40, maxlvl: 58, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  2722: {name: '瞄准镜 (+10 伤害)',                         minlvl: 55, maxlvl: 70, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  2723: {name: '瞄准镜 (+12 伤害)',                         minlvl: 55, maxlvl: 70, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  3843: {name: '瞄准镜 (+15 伤害)',                         minlvl: 70, maxlvl: 80, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
+  2724: {name: '瞄准镜 (+28 暴击等级)',                     minlvl: 60, maxlvl: 83, itemclass: 2, itemsubclasses: *rsc,     enchantcats: [MeleeStrTank,MeleeStrDPS,MeleeAgiDPS,RangedAgi]}
 
 # # OUT - these weapon enchants arent included
 # ## Shaman only - 石化 will not have effect

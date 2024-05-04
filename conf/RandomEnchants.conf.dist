@@ -6,11 +6,17 @@
 #
 # RANDOM ENCHANTS OPTIONS
 #
+#     RandomEnchants.Enable
+#        Enable or disable the module
+#        Default:     1 (enabled)
+
+RandomEnchants.Enable = 1
+
 #     RandomEnchants.AnnounceOnLogin
 #        Announce a message on login for this module
 #        Default:     1
 
-RandomEnchants.AnnounceOnLogin=1
+RandomEnchants.AnnounceOnLogin = 1
 
 #
 #     RandomEnchants.Debug
@@ -24,7 +30,7 @@ RandomEnchants.Debug=0
 #        Message to display on login(Only applies if AnnounceOnLogin is enabled)
 #        Default:    "This server is running a RandomEnchants Module."
 
-RandomEnchants.OnLoginMessage="This server is running a RandomEnchants Module."
+RandomEnchants.OnLoginMessage="服务器已启用|cff4CFF00随机附魔|r模块。"
 
 #
 #     RandomEnchants.OnLoot
@@ -52,7 +58,7 @@ RandomEnchants.OnQuestReward=1
 # #        Chance at random enchant on obtaining item group roll rewards (i.e. NEED/GREED)
 # #        Default:     1
 
-# RandomEnchants.OnGroupRollRewardItem=1
+RandomEnchants.OnGroupRollRewardItem=1
 
 #
 #     RandomEnchants.OnVendorPurchase
@@ -70,10 +76,10 @@ RandomEnchants.OnVendorPurchase=1
 # RandomEnchants.OnAllItemsCreated=1
 
 #
-#     RandomEnchants.RollPercentage.1
-#     RandomEnchants.RollPercentage.2
-#     RandomEnchants.RollPercentage.3
-#     RandomEnchants.RollPercentage.4
+#     RandomEnchants.enchantChance1
+#     RandomEnchants.enchantChance2
+#     RandomEnchants.enchantChance3
+#     RandomEnchants.enchantChance4
 #        Each of the above toggles how the chance of getting each roll
 #        This goes up to 5 rolls for items that can be enchanted 5 times.
 #        Default:     30.0
@@ -82,10 +88,10 @@ RandomEnchants.OnVendorPurchase=1
 #                     45.0
 #                     50.0
 
-RandomEnchants.RollPercentage.1=30.0
-RandomEnchants.RollPercentage.2=35.0
-RandomEnchants.RollPercentage.3=40.0
-RandomEnchants.RollPercentage.4=45.0
+RandomEnchants.enchantChance1=30.0
+RandomEnchants.enchantChance2=35.0
+RandomEnchants.enchantChance3=40.0
+RandomEnchants.enchantChance4=45.0
 
 #
 #     RandomEnchants.RollPlayerClassPreference

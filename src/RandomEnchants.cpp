@@ -12,8 +12,8 @@
 // Our suffix tiers can go up to 4.
 #define MAX_RAND_ENCHANT_TIERS 4
 
-double default_enchant_pcts[MAX_RAND_ENCHANT_TIERS] = {30.0, 35.0, 40.0, 45.0};
-
+double default_enchantChance[MAX_RAND_ENCHANT_TIERS] = {30.0, 35.0, 40.0, 45.0};
+/*
 bool default_announce_on_log = true;
 bool default_debug = false;
 bool default_on_loot = true;
@@ -25,17 +25,18 @@ bool default_on_all_items_created = true;
 bool default_use_new_random_enchant_system = true;
 bool default_roll_player_class_preference = false;
 std::string default_login_message ="This server is running a RandomEnchants Module.";
-
+*/
 // CONFIGURATION
 
-double config_enchant_pcts[MAX_RAND_ENCHANT_TIERS] = {
-    default_enchant_pcts[0],
-    default_enchant_pcts[1],
-    default_enchant_pcts[2],
-    default_enchant_pcts[3],
+double enchantChance[MAX_RAND_ENCHANT_TIERS] = {
+    default_enchantChance[0],
+    default_enchantChance[1],
+    default_enchantChance[2],
+    default_enchantChance[3],
 };
+/*
 bool config_announce_on_log = default_announce_on_log;
-bool config_debug = default_debug;
+bool sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)) = default_debug;
 bool config_on_loot = default_on_loot;
 bool config_on_create = default_on_create;
 bool config_on_quest_reward = default_on_quest_reward;
@@ -45,7 +46,7 @@ bool config_on_vendor_purchase = default_on_vendor_purchase;
 bool config_use_new_random_enchant_system = default_use_new_random_enchant_system;
 bool config_roll_player_class_preference = default_roll_player_class_preference;
 std::string config_login_message = default_login_message;
-
+*/
 enum Attributes
 {
     ATTRIBUTE_STRENGTH      = 0,  
@@ -1024,7 +1025,7 @@ auto getItemEnchantCategoryMask(Item* item)
             }
             break;
     }
-    if (config_debug)
+    if (sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
     {
         LOG_INFO("module", ">>>>> 随机附魔调试开始 <<<<<");
         LOG_INFO("module", "随机附魔：获取物品附魔掩码，检查如下：");
@@ -1103,7 +1104,7 @@ auto getItemEnchantCategoryMask(Item* item)
         return retVals{0, 0, false};
     }
     auto [enchCatMask, attrMask] = getEnchantCategoryMaskByClassAndSpec(plrClass, plrSpec);
-    if (config_debug)
+    if (sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
     {
         LOG_INFO("module", ">>>>> RANDOM_ENCHANT DEBUG PRINT CHOSEN ITEM SPEC START <<<<<");
         LOG_INFO("module", "RANDOM_ENCHANT: CHOSEN SPEC: {}; PLAYER CLASS: {}", plrSpec, plrClass);
@@ -1120,16 +1121,16 @@ auto getPlayerItemEnchantCategoryMask(Item* item, Player* player = nullptr)
         uint32 enchCatMask, attrMask;
         bool found;
     };
-    if (config_roll_player_class_preference && player->CanUseItem(item, false) == EQUIP_ERR_OK)
+    if (sConfigMgr->GetOption<bool>("RandomEnchants.RollPlayerClassPreference", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)) && player->CanUseItem(item, false) == EQUIP_ERR_OK)
     {
-        if (config_debug)
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
         {
             LOG_INFO("module", "RANDOM_ENCHANT: Getting player class preference for enchant category");
         }
         auto [enchMask, attrMask] = getPlayerEnchantCategoryMask(player);
         return retVals{enchMask, attrMask, true};
     }
-    if (config_debug)
+    if (sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
     {
         LOG_INFO("module", "RANDOM_ENCHANT: Getting item enchant category");
     }
@@ -1200,7 +1201,7 @@ AND (
                 }
             }
             auto suffFactor = GenerateEnchSuffixFactor(item->GetTemplate()->ItemId);
-            if (config_debug)
+            if (sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             {
                 LOG_INFO("module", "RANDOM_ENCHANT: Suffix factor for item {}, Item ID is: {} is {}", item->GetTemplate()->Name1, item->GetTemplate()->ItemId, suffFactor);
             }
@@ -1213,7 +1214,7 @@ AND (
                 maxCount--;
                 continue;
             }
-            if (config_debug)
+            if (sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             {
                 LOG_INFO("module", "RANDOM_ENCHANT: Query with the following params:");
                 LOG_INFO("module", "                level {}, enchantQuality {}, item_class {}, subclassmask {}, enchCatMask {}, attrMask {}", level, enchantQuality, Class, subclassMask, enchantCategoryMask, attrMask);
@@ -1232,6 +1233,10 @@ AND (
 
 int GetRolledEnchantLevel()
 {
+    enchantChance[0] = sConfigMgr->GetOption<float>("RandomEnchants.EnchantChance1", default_enchantChance[0]);
+    enchantChance[1] = sConfigMgr->GetOption<float>("RandomEnchants.EnchantChance2", default_enchantChance[1]);
+    enchantChance[2] = sConfigMgr->GetOption<float>("RandomEnchants.EnchantChance3", default_enchantChance[2]);
+    enchantChance[3] = sConfigMgr->GetOption<float>("RandomEnchants.EnchantChance4", default_enchantChance[3]);
     int currentTier = -1;
     for (auto rollpct: config_enchant_pcts)
     {
@@ -1311,20 +1316,20 @@ void RollPossibleEnchant(Player* player, Item* item)
     ChatHandler chathandle = ChatHandler(player->GetSession());
     uint32 loc = player->GetSession()->GetSessionDbLocaleIndex();
     std::string suffixName = item_rand->Name[loc];
-    chathandle.PSendSysMessage("|cffFF0000 %s |r获得|cffFF0000 %s |r效果！", GetItemLink(item->GetEntry(), player->GetSession()), suffixName);
+    chathandle.PSendSysMessage("<你的装备%s获得|cffFF0000%s|r随机附魔效果>", GetItemLink(item->GetEntry(), player->GetSession()), suffixName);
 }
 
 // END MAIN GET ROLL ENCHANTS FUNCTIONS
-
+/*
 class RandomEnchantsWorldScript : public WorldScript
 {
 public:
     RandomEnchantsWorldScript() : WorldScript("RandomEnchantsWorldScript") { }
-
-    void OnBeforeConfigLoad(bool /*reload*/) override
-    {
+*/
+//    void OnBeforeConfigLoad(bool /*reload*/) override
+/* {
         config_announce_on_log = sConfigMgr->GetOption<bool>("RandomEnchants.AnnounceOnLogin", default_announce_on_log);
-        config_debug = sConfigMgr->GetOption<bool>("RandomEnchants.Debug", default_debug);
+        sConfigMgr->GetOption<bool>("RandomEnchants.Debug", false) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)) = sConfigMgr->GetOption<bool>("RandomEnchants.Debug", default_debug);
         config_on_loot = sConfigMgr->GetOption<bool>("RandomEnchants.OnLoot", default_on_loot);
         config_on_create = sConfigMgr->GetOption<bool>("RandomEnchants.OnCreate", default_on_create);
         config_on_quest_reward = sConfigMgr->GetOption<bool>("RandomEnchants.OnQuestReward", default_on_quest_reward);
@@ -1339,47 +1344,40 @@ public:
         config_enchant_pcts[3] = sConfigMgr->GetOption<float>("RandomEnchants.RollPercentage.4", default_enchant_pcts[3]);
     }
 };
-
-class RandomEnchantsPlayer : public PlayerScript{
+*/
+class RandomEnchantsPlayer : public PlayerScript {
 public:
 
     RandomEnchantsPlayer() : PlayerScript("RandomEnchantsPlayer") { }
 
     void OnLogin(Player* player) override {
-        if (config_announce_on_log)
-        {
-            ChatHandler(player->GetSession()).SendSysMessage(config_login_message);
-        }
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.AnnounceOnLogin", true) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
+            ChatHandler(player->GetSession()).SendSysMessage(sConfigMgr->GetOption<std::string>("RandomEnchants.OnLoginMessage", "This server is running a RandomEnchants Module.").c_str());
     }
     void OnStoreNewItem(Player* player, Item* item, uint32 /*count*/) override
     {
-        if (/*!HasBeenTouchedByRandomEnchantMod(item) && */config_on_loot)
-
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.OnLoot", true) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             RollPossibleEnchant(player, item);
     }
     void OnCreateItem(Player* player, Item* item, uint32 /*count*/) override
     {
-        if (/*!HasBeenTouchedByRandomEnchantMod(item) && */config_on_create)
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.OnCreate", true) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             RollPossibleEnchant(player, item);
     }
     void OnQuestRewardItem(Player* player, Item* item, uint32 /*count*/) override
     {
-        if(/*!HasBeenTouchedByRandomEnchantMod(item) && */config_on_quest_reward)
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.OnQuestReward", true) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             RollPossibleEnchant(player, item);
     }
     void OnGroupRollRewardItem(Player* player, Item* item, uint32 /*count*/, RollVote /*voteType*/, Roll* /*roll*/) override
     {
-        if (/*!HasBeenTouchedByRandomEnchantMod(item) && */config_on_group_roll_reward_item)
-        {
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.OnGroupRoll", true) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             RollPossibleEnchant(player, item);
-        }
     }
     void OnAfterStoreOrEquipNewItem(Player* player, uint32 /*vendorslot*/, Item* item, uint8 /*count*/, uint8 /*bag*/, uint8 /*slot*/, ItemTemplate const* /*pProto*/, Creature* /*pVendor*/, VendorItem const* /*crItem*/, bool /*bStore*/) override
     {
-        if (/*!HasBeenTouchedByRandomEnchantMod(item) && */config_on_vendor_purchase)
-        {
+        if (sConfigMgr->GetOption<bool>("RandomEnchants.OnVendorPurchase", true) && (sConfigMgr->GetOption<bool>("RandomEnchants.Enable", true)))
             RollPossibleEnchant(player, item);
-        }
     }
 };
 
@@ -1539,7 +1537,7 @@ public:
 };
 
 void AddRandomEnchantsScripts() {
-    new RandomEnchantsWorldScript();
+    //new RandomEnchantsWorldScript();
     new RandomEnchantsPlayer();
     new RandomEnchantCommands();
     // new RandomEnchantsMisc();

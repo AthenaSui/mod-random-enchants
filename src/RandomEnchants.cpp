@@ -1238,7 +1238,7 @@ int GetRolledEnchantLevel()
     enchantChance[2] = sConfigMgr->GetOption<float>("RandomEnchants.EnchantChance3", default_enchantChance[2]);
     enchantChance[3] = sConfigMgr->GetOption<float>("RandomEnchants.EnchantChance4", default_enchantChance[3]);
     int currentTier = -1;
-    for (auto rollpct: config_enchant_pcts)
+    for (auto rollpct: enchantChance)
     {
         double roll = (float)rand_chance();
         if (roll + rollpct < 100.0)
@@ -1250,7 +1250,7 @@ int GetRolledEnchantLevel()
     }
     return currentTier;
 }
-std::string GetItemLink(uint32 entry, WorldSession* session) const
+std::string const GetItemLink(uint32 entry, WorldSession* session)
 {
     const ItemTemplate* temp = sObjectMgr->GetItemTemplate(entry);
     int loc_idx = session->GetSessionDbLocaleIndex();

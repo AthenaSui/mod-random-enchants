@@ -128,7 +128,7 @@ int getLevelOffset(Item* item, Player* player = nullptr)
     int level = 1;
     if (player)
     {
-        level = player->getLevel();
+        level = player->GetLevel();
     }
     else
     {
@@ -1316,7 +1316,7 @@ void RollPossibleEnchant(Player* player, Item* item)
     ChatHandler chathandle = ChatHandler(player->GetSession());
     uint32 loc = player->GetSession()->GetSessionDbLocaleIndex();
     std::string suffixName = item_rand->Name[loc];
-    chathandle.PSendSysMessage("<你的装备%s获得|cffFF0000%s|r随机附魔效果>", GetItemLink(item->GetEntry(), player->GetSession()), suffixName);
+    chathandle.PSendSysMessage("<你的装备{}获得|cffFF0000{}|r随机附魔效果>", GetItemLink(item->GetEntry(), player->GetSession()), suffixName);
 }
 
 // END MAIN GET ROLL ENCHANTS FUNCTIONS
